@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- PDF-FO template version 2.0.0 -->
+<!-- 
+Copyright © 2004-2006 by Idiom Technologies, Inc. All rights reserved. 
+IDIOM is a registered trademark of Idiom Technologies, Inc. and WORLDSERVER
+and WORLDSTART are trademarks of Idiom Technologies, Inc. All other 
+trademarks are the property of their respective owners. 
+
+IDIOM TECHNOLOGIES, INC. IS DELIVERING THE SOFTWARE "AS IS," WITH 
+ABSOLUTELY NO WARRANTIES WHATSOEVER, WHETHER EXPRESS OR IMPLIED,  AND IDIOM
+TECHNOLOGIES, INC. DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING
+BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR 
+PURPOSE AND WARRANTY OF NON-INFRINGEMENT. IDIOM TECHNOLOGIES, INC. SHALL NOT
+BE LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, COVER, PUNITIVE, EXEMPLARY,
+RELIANCE, OR CONSEQUENTIAL DAMAGES (INCLUDING BUT NOT LIMITED TO LOSS OF 
+ANTICIPATED PROFIT), ARISING FROM ANY CAUSE UNDER OR RELATED TO  OR ARISING 
+OUT OF THE USE OF OR INABILITY TO USE THE SOFTWARE, EVEN IF IDIOM
+TECHNOLOGIES, INC. HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. 
+
+Idiom Technologies, Inc. and its licensors shall not be liable for any
+damages suffered by any person as a result of using and/or modifying the
+Software or its derivatives. In no event shall Idiom Technologies, Inc.'s
+liability for any damages hereunder exceed the amounts received by Idiom
+Technologies, Inc. as a result of this transaction.
+
+These terms and conditions supersede the terms and conditions in any
+licensing agreement to the extent that such terms and conditions conflict
+with those set forth herein.
+
+This file is part of the DITA Open Toolkit project hosted on Sourceforge.net. 
+See the accompanying license.txt file for applicable licenses.
+-->
+<vars xmlns="http://www.idiominc.com/opentopic/vars" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+	<!-- Strings used in the headers and footers of pages.-->
+	<!-- Product name to be placed inside headers etc. -->
+	<variable id="Product Name"/>
+	<!-- Body Headers -->
+	<variable id="Body header top">
+		<param ref-name="heading"/>
+	</variable>
+	<variable id="Body header bottom">
+		<param ref-name="heading"/>
+	</variable>
+	<!-- Body Footers -->
+	<variable id="Body even footer">
+		<param ref-name="pagenum"/>
+	</variable>
+	<variable id="Body odd footer">
+		<param ref-name="pagenum"/>
+	</variable>
+	<variable id="Body footer">
+		<param ref-name="prodname"/>
+	</variable>
+	<!-- TOC Header -->
+	<variable id="TOC header top">Konten</variable>
+	<!-- Index Header -->
+	<variable id="Index header top">Indeks</variable>
+	<!-- The formatting used to display ordered lists (e.g., "1., 2." or 
+         "1), 2)" -->
+	<variable id="Ordered List Number">
+		<param ref-name="number"/>
+	</variable>
+	<!-- The unordered list bullet   -->
+	<variable id="Unordered List bullet">&#x2022;</variable>
+	<!-- The heading string to put at the top of the Table of Contents -->
+	<variable id="Contents">Isi</variable>
+	<!-- The heading string to put at the top of the Table of Contents -->
+	<variable id="Table of Contents">Isi</variable>
+	<!-- The heading string to put at the top of the Index -->
+	<variable id="Index">Indeks</variable>
+	<variable id="Index Continued String">lanjutan</variable>
+	<!--string before see element-->
+	<variable id="Index See String">, Lihat </variable>
+	<!--string before see also element-->
+	<variable id="Index See Also String">Lihat juga </variable>
+	<!--string before see also element-->
+	<variable id="See Also String">Lihat juga </variable>
+	<!-- The string used to label a chapter within the table of contents. -->
+	<variable id="Table of Contents Chapter">Bab&#xA0;<param ref-name="number"/>:&#xA0;</variable>
+	<!-- The string used to label an appendix within the table of contents. -->
+	<variable id="Table of Contents Appendix">Lampiran&#xA0;<param ref-name="number"/>:&#xA0;</variable>
+	<!-- The string used to label an part within the table of contents. -->
+	<variable id="Table of Contents Part">Bagian&#xA0;<param ref-name="number"/>:&#xA0;</variable>
+	<!-- The string used to label an preface within the table of contents. -->
+	<variable id="Table of Contents Preface">Kata Pengantar&#xA0;</variable>
+	<!-- The heading to put at the top of a chapter when creating a
+         chapter-level "mini-TOC" -->
+	<variable id="Mini Toc">Topik: </variable>
+	<!-- Text to use for 'Note' label generated from <note> element 
+         with 'type' attribute set to 'fastpath'. -->
+	<variable id="Fastpath">Cara cepat</variable>
+	<!-- Text to use for 'Note' label generated from <note> element 
+         with 'type' attribute set to 'remember'. -->
+	<variable id="Remember">Ingat</variable>
+	<!-- Text to use for 'Note' label generated from <note> element 
+         with 'type' attribute set to 'attention'. -->
+	<variable id="Attention">Perhatian</variable>
+	<!-- Text to use for 'Note' label generated from <note> element 
+         with 'type' attribute set to 'danger'. -->
+	<variable id="Danger">Bahaya</variable>
+	<!-- Text to use for 'Note' label generated from <note> element
+         with 'type' attribute set to 'restriction'. -->
+	<variable id="Restriction">Batasan</variable>
+	<!-- Text to use for figure titles. Renders as part of <fig>/<title>
+          elements. -->
+	<variable id="Figure">Gambar <param ref-name="number"/>&#xA0;&#xA0;<param ref-name="title"/>
+	</variable>
+	<!-- Text to use for table titles. Renders as part of <table>/<title> 
+         elements. -->
+	<variable id="Table">Tabel <param ref-name="number"/>&#xA0;&#xA0;<param ref-name="title"/>
+	</variable>
+	<!-- Text to use for related links label.
+         Renders as part of <related-links> element. -->
+	<variable id="Related Links">Tautan Terkait</variable>
+	<!-- Default cross-reference text prefix. Used to generate reference 
+         text in case it's not specified in source. -->
+	<variable id="Cross-Reference">Referensi-Silang ke:</variable>
+	<!-- Default content-reference text prefix. Used to generate reference 
+         text in case target cannot be resolved. -->
+	<variable id="Content-Reference">Referensi-Konten ke:</variable>
+	<!-- Default title text for referenced section title. Used to generate 
+         reference text in case reference has no explicit content and
+         referenced section has no title. -->
+	<variable id="Untitled section">Bagian tanpa judul.</variable>
+	<!-- Default title text for referenced list item. Used to generate
+         reference text in case reference has no explicit content and 
+         reference target is a list item. -->
+	<variable id="List item">Daftar item.</variable>
+	<!-- Default title text for referenced footnote. Used to generate 
+         reference text in case reference has no explicit content and 
+         reference target is a footnote. -->
+	<variable id="Foot note">Catatan kaki.</variable>
+	<!-- Text to use for a generated label of navigation title. Renders
+         as part of <navtitle> element. -->
+	<variable id="Navigation title">Judul navigasi</variable>
+	<!-- Text to use for a generated label of search title. Renders 
+         as part of <searchtitle> element. -->
+	<variable id="Search title">Cari judul</variable>
+	<!-- Text to use for chapter titles.-->
+	<variable id="Chapter with number">Bab <param ref-name="number"/>
+	</variable>
+	<!-- Text to use for appendix titles.-->
+	<variable id="Appendix with number">Lampiran <param ref-name="number"/>
+	</variable>
+	<!-- Text to use for part titles.-->
+	<variable id="Part with number">Bagian <param ref-name="number"/>
+	</variable>
+	<!-- Text to use for a label generated from <required-cleanup> element. -->
+	<variable id="Required-Cleanup">[Pembersihan-Wajib]</variable>
+	<!-- Template for generated page number of a reference 
+         in printed manual. -->
+	<variable id="On the page">
+		<param ref-name="reference"/> pada laman <param ref-name="pagenum"/>
+	</variable>
+	<!-- Template for generated page number of a reference
+         in printed manual, when referenced element has no title. -->
+	<variable id="Page"> laman <param ref-name="pagenum"/>
+	</variable>
+	<!-- Template for generated page number of a reference
+         in chm/html, when referenced element has no title. -->
+	<variable id="This link">tautan ini</variable>
+	<!-- Image path to use for a note of "note" type. -->
+	<variable id="note Note Image Path"/>
+	<!-- Image path to use for a note of "attention" type. -->
+	<variable id="attention Note Image Path"/>
+	<!-- Image path to use for a note of "caution" type. -->
+	<variable id="caution Note Image Path"/>
+	<!-- Image path to use for a note of "danger" type. -->
+	<variable id="danger Note Image Path"/>
+	<!-- Image path to use for a note of "fastpath" type. -->
+	<variable id="fastpath Note Image Path"/>
+	<!-- Image path to use for a note of "important" type. -->
+	<variable id="important Note Image Path"/>
+	<!-- Image path to use for a note of "remember" type. -->
+	<variable id="remember Note Image Path"/>
+	<!-- Image path to use for a note of "restriction" type. -->
+	<variable id="restriction Note Image Path"/>
+	<!-- Image path to use for a note of "tip" type. -->
+	<variable id="tip Note Image Path"/>
+	<!-- Image path to use for a note of "other" type. -->
+	<variable id="other Note Image Path"/>
+	<!--
+        String used for links in end of document in XHTML
+    -->
+	<!-- The title of the links to parent -->
+	<variable id="Parent topic">Topik Induk</variable>
+	<!-- The title of the links to next topics -->
+	<variable id="Next topic">Topik Berikutnya</variable>
+	<!-- The title of the links to previous topics -->
+	<variable id="Previous topic">Topik Sebelumnya</variable>
+	<!-- The title of the links to child topics -->
+	<variable id="Child topics">Topik Cabang</variable>
+	<!-- The title of the links to Related concepts -->
+	<variable id="Related concepts">Konsep Terkait</variable>
+	<!-- The title of the links to Related tasks -->
+	<variable id="Related tasks">Tugas Terkait</variable>
+	<!-- The title of the links to Related references -->
+	<variable id="Related references">Referensi Terkait</variable>
+	<!-- The title of the links to Related information -->
+	<variable id="Related information">Informasi Terkait</variable>
+	<!--
+       Strings used in the online-help publishing.
+    -->
+	<!-- The title of the "contents" button in online-help output -->
+	<variable id="Contents button title">Konten</variable>
+	<!-- The title of the "index" button in online-help output -->
+	<variable id="Index button title">Indeks</variable>
+	<!-- The title of the "search" button in online-help output -->
+	<variable id="Search button title">Cari</variable>
+	<!-- The title of the "back" button in online-help output -->
+	<variable id="Back button title">Kembali</variable>
+	<!-- The title of the "forward" button in online-help output -->
+	<variable id="Forward button title">Maju</variable>
+	<!-- The title of the "main page" button in online-help output -->
+	<variable id="Main page button title">Beranda</variable>
+	<!-- The title of the "previous page" button in online-help output -->
+	<variable id="Previous page button title">Topik Sebelumnya</variable>
+	<!-- The title of the "next page" button in online-help output -->
+	<variable id="Next page button title">Topik Berikutnya</variable>
+	<!-- The "online help" document title prefix in online-help output -->
+	<variable id="Online help prefix">Bantuan Online</variable>
+	<!-- The search by index field title in online-help output -->
+	<variable id="Search index field title">Cari kata kunci:</variable>
+	<!-- The search by index button title in online-help output -->
+	<variable id="Search index button title">Tampilkan</variable>
+	<!-- The search by text field title in online-help output -->
+	<variable id="Search text field title">Cari bantuan untuk:</variable>
+	<!-- The search by text button title in online-help output -->
+	<variable id="Search text button title">Cari</variable>
+	<variable id="MenuCascade">|</variable>
+	<variable id="UiControlBefore"/>
+	<variable id="UiControlAfter"/>
+	<variable id="WinTitleBefore"/>
+	<variable id="WinTitleAfter"/>
+	<variable id="CiteBefore"/>
+	<variable id="CiteAfter"/>
+	<variable id="TermBefore"/>
+	<variable id="TermAfter"/>
+	<variable id="IBefore"/>
+	<variable id="IAfter"/>
+	<variable id="Prerequisite">Sebelum Anda memulai</variable>
+	<variable id="Prerequisites">Sebelum Anda memulai</variable>
+	<variable id="Steps">Tugas</variable>
+	<variable id="Tasks">Tugas</variable>
+	<variable id="How">Bagaimana?</variable>
+	<variable id="Version">versi</variable>
+	<variable id="Continued with parens">(lanjutan)</variable>
+	<variable id="Note">Catatan</variable>
+	<variable id="Notice">Pemberitahuan</variable>
+	<variable id="Caution">Hati-hati</variable>
+	<variable id="Important">Penting</variable>
+	<variable id="Warning">Peringatan</variable>
+	<variable id="Tip">Cara</variable>
+	<variable id="Glossary">Glosarium</variable>
+	<variable id="Direction">lr-tb</variable>
+	<variable id="ArrowGraphic">arrow.gif</variable>
+	<variable id="Options">Opsi</variable>
+	<variable id="Description">Deskripsi</variable>
+	<variable id="LanguageId">37</variable>
+	<variable id="FooterSplit"> </variable>
+	<variable id="Language">Bahasa Indonesia</variable>
+	<variable id="Full Title"><param ref-name="noun"/> <param ref-name="prodname"/> <param ref-name="version"/></variable>
+	
+	<variable id="Noun application">Aplikasi</variable>
+	<variable id="Noun console">Konsol</variable>
+	<variable id="Noun database">Basis Data</variable>
+	<variable id="Noun internet filter">Filter Internet</variable>
+	<variable id="Noun platform">Platform</variable>
+	<variable id="Noun program">Program</variable>
+	<variable id="Noun risk assessment">Penilaian Risiko</variable>
+	<variable id="Noun score">Skor</variable>
+	<variable id="Noun security management console">Konsol Manajemen Keamanan</variable>
+	<variable id="Noun server">Server</variable>
+	<variable id="Noun site rating">Rating Situs</variable>
+	<variable id="Noun solution">Solusi</variable>
+	<variable id="Noun technology">Teknologi</variable>
+	<variable id="Noun trustmark">Trustmark</variable>
+	<variable id="Noun value">Nilai</variable>
+	<variable id="Noun web portal">Portal Web</variable>
+	<variable id="Noun certification">Sertifikasi</variable>
+	<variable id="Noun consulting services">Layanan Konsultasi</variable>
+	<variable id="Noun filter">Filter</variable>
+	<variable id="Noun operating system">Sistem Operasi</variable>
+	<variable id="Noun product">Produk</variable>
+	<variable id="Noun proxy">Proksi</variable>
+	<variable id="Noun scanner">Pemindai</variable>
+	<variable id="Noun security assessment">Penilaian Keamanan</variable>
+	<variable id="Noun sensor">Sensor</variable>
+	<variable id="Noun service">Layanan</variable>
+	<variable id="Noun software">Perangkat Lunak</variable>
+	<variable id="Noun suite">Paket</variable>
+	<variable id="Noun tool">Alat</variable>
+	<variable id="Noun utility">Utilitas</variable>
+	<variable id="Noun vulnerability assessment">Penilaian Kerentanan</variable>
+	<variable id="Noun web reputation">Reputasi Web</variable>
+	<variable id="Noun appliance">Perkakas</variable>
+	<variable id="Noun agent">Agen</variable>
+	<variable id="Noun manager">Manajer</variable>
+	<variable id="Noun module">Modul</variable>
+	<variable id="Noun system">Sistem</variable>
+	<variable id="Noun upgrade">Peningkatan</variable>
+	
+	
+	<variable id="Noun hardware">Perangkat Keras</variable>
+	
+	<variable id="epo">Untuk dipakai bersama Perangkat Lunak ePolicy Orchestrator <param ref-name="version"/></variable>
+	<variable id="revision">Revisi <param ref-name="revision"/></variable>
+	
+	<variable id="confidential">CONFIDENTIAL</variable>
+</vars>

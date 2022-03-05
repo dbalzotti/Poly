@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.-->
+<!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. -->
+
+<strings xml:lang="en-us">        <!-- US English -->
+
+<!-- various labels (not author controlled) -->
+<str name="Figure">Rajah</str>
+<str name="Table">Jadual</str>
+<str name="Next topic">Tajuk seterusnya</str>
+<str name="Previous topic">Tajuk sebelumnya</str>
+<str name="Parent topic">Tajuk induk</str>
+<str name="Required cleanup">Pembersihan diperlukan</str>
+<str name="Draft comment">Draf komen</str>
+<str name="Option">Pilihan</str>
+<str name="Description">Perihalan</str>
+<str name="Optional">Pilihan</str>
+<str name="Required">Diperlukan</str>
+<str name="Skip visual syntax diagram">Langkau gambarajah sintaks visual</str>
+<str name="Read syntax diagram">Baca gambarajah sintaks</str>
+<str name="Start of change">Permulaan perubahan</str>
+<str name="End of change">Penamat perubahan</str>
+<str name="Index">Indeks</str>
+<str name="Special characters">Aksara khas</str>
+<str name="Numerics">Angka</str>
+<str name="End notes">Nota hujung</str>
+<str name="Artwork">Karya Seni</str>
+<str name="Syntax">Sintaks</str>
+<str name="Type">Jenis</str>
+<str name="Value">Nilai</str>
+<!-- Text that goes before a link to a topic -->
+<str name="intro-to-topic-link"></str>
+
+<!-- peril notice labels -->
+<str name="Note">Nota</str>
+<str name="Notes">Note</str>
+<str name="Tip">Petua</str>
+<str name="Fastpath">Laluan Pantas</str>
+<str name="Important">Penting</str>
+<str name="Attention">Perhatian</str>
+<str name="Caution">AWAS</str>
+<str name="Danger">BAHAYA</str>
+<str name="Remember">Ingat</str>
+<str name="Restriction">Sekatan</str>
+<str name="Warning">Amaran</str>
+
+<!-- default title text for section level generated sections -->
+<str name="Contents">Kandungan</str>
+<str name="Related concepts">Konsep berkaitan</str>
+<str name="Related tasks">Tugas berkaitan</str>
+<str name="Related reference">Rujukan berkaitan</str>
+<str name="Related information">Maklumat berkaitan</str>
+
+<str name="Prerequisite">Prasyarat</str>
+<str name="Prerequisites">Prasyarat</str>
+<str name="or">atau</str>
+<str name="figure-number-separator"> </str>
+
+<!--Task section labels -->
+<str name="task_context">Mengenai tugas ini</str>
+<str name="task_example">Contoh</str>
+<str name="task_postreq">Apa yang perlu dilakukan seterusnya</str>
+<str name="task_prereq">Sebelum anda bermula</str>
+<str name="task_procedure">Prosedur</str>
+<str name="task_results">Hasil</str>
+
+<str name="Copyright">Hak cipta</str>
+
+<!-- Symbols -->
+<str name="OpenQuote">&quot;</str>
+<str name="CloseQuote">&quot;</str>
+<str name="ColonSymbol">:</str>
+ 
+<!-- For odt transform -->
+<str name="On the page"> di halaman </str>
+<str name="Related Links">Pautan Berkaitan</str>
+<str name="List item">Senaraikan item.</str>
+<str name="Foot note">Nota kaki.</str>
+<str name="Page"> halaman </str>
+<str name="Unordered List bullet">•</str>
+
+</strings>

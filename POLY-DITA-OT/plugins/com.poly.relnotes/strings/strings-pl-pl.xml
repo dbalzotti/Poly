@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.-->
+<!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. -->
+
+<strings xml:lang="en-us">        <!-- US English -->
+
+<!-- various labels (not author controlled) -->
+<str name="Figure">Rysunek</str>
+<str name="Table">Tabela</str>
+<str name="Next topic">Kolejny temat</str>
+<str name="Previous topic">Poprzedni temat</str>
+<str name="Parent topic">Temat nadrzędny</str>
+<str name="Required cleanup">Wymagane czyszczenie</str>
+<str name="Draft comment">Komentarz</str>
+<str name="Option">Opcja</str>
+<str name="Description">Opis</str>
+<str name="Optional">Wyposażenie opcjonalne</str>
+<str name="Required">Wymagane</str>
+<str name="Skip visual syntax diagram">Pomiń schemat</str>
+<str name="Read syntax diagram">Odczytaj schemat</str>
+<str name="Start of change">Początek zmiany</str>
+<str name="End of change">Koniec zmiany</str>
+<str name="Index">Indeks</str>
+<str name="Special characters">Znaki specjalne</str>
+<str name="Numerics">Wartości numeryczne</str>
+<str name="End notes">Uwagi końcowe</str>
+<str name="Artwork">Grafika</str>
+<str name="Syntax">Składnia</str>
+<str name="Type">Typ</str>
+<str name="Value">Wartość</str>
+<!-- Text that goes before a link to a topic -->
+<str name="intro-to-topic-link"></str>
+
+<!-- peril notice labels -->
+<str name="Note">Uwaga</str>
+<str name="Notes">Uwagi</str>
+<str name="Tip">Wskazówka</str>
+<str name="Fastpath">Skrót</str>
+<str name="Important">Ważne</str>
+<str name="Attention">Uwaga</str>
+<str name="Caution">OSTROŻNIE</str>
+<str name="Danger">NIEBEZPIECZEŃSTWO</str>
+<str name="Remember">Zapamiętaj</str>
+<str name="Restriction">Ograniczenie</str>
+<str name="Warning">Ostrzeżenie</str>
+
+<!-- default title text for section level generated sections -->
+<str name="Contents">Zawartość zestawu</str>
+<str name="Related concepts">Powiązane koncepcje</str>
+<str name="Related tasks">Powiązane zadania</str>
+<str name="Related reference">Powiązane odnośniki</str>
+<str name="Related information">Powiązane informacje</str>
+
+<str name="Prerequisite">Warunek</str>
+<str name="Prerequisites">Warunki</str>
+<str name="or">lub</str>
+<str name="figure-number-separator"> </str>
+
+<!--Task section labels -->
+<str name="task_context">O tym zadaniu</str>
+<str name="task_example">Przykład</str>
+<str name="task_postreq">Co dalej</str>
+<str name="task_prereq">Zanim zaczniesz</str>
+<str name="task_procedure">Procedura</str>
+<str name="task_results">Wyniki</str>
+
+<str name="Copyright">Prawa autorskie</str>
+
+<!-- Symbols -->
+<str name="OpenQuote">&quot;</str>
+<str name="CloseQuote">&quot;</str>
+<str name="ColonSymbol">:</str>
+ 
+<!-- For odt transform -->
+<str name="On the page"> na str. </str>
+<str name="Related Links">Pokrewne łącza</str>
+<str name="List item">Element listy.</str>
+<str name="Foot note">Przypis.</str>
+<str name="Page"> str. </str>
+<str name="Unordered List bullet">•</str>
+
+</strings>

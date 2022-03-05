@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.-->
+<!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. -->
+
+<strings xml:lang="en-us">        <!-- US English -->
+
+<!-- various labels (not author controlled) -->
+<str name="Figure">Figur</str>
+<str name="Table">Tabell</str>
+<str name="Next topic">Neste emne</str>
+<str name="Previous topic">Forrige emne</str>
+<str name="Parent topic">Overordnet emne</str>
+<str name="Required cleanup">Obligatorisk opprydding</str>
+<str name="Draft comment">Kommentarutkast</str>
+<str name="Option">Alternativer</str>
+<str name="Description">Beskrivelse</str>
+<str name="Optional">Valgfri</str>
+<str name="Required">Obligatorisk</str>
+<str name="Skip visual syntax diagram">Hopp over visuelt syntaksdiagram</str>
+<str name="Read syntax diagram">Les syntaksdiagram</str>
+<str name="Start of change">Start på endring</str>
+<str name="End of change">Slutt på endring</str>
+<str name="Index">Innholdsfortegnelse</str>
+<str name="Special characters">Spesielle tegn</str>
+<str name="Numerics">Tallverdier</str>
+<str name="End notes">Sluttnoter</str>
+<str name="Artwork">Illustrasjoner</str>
+<str name="Syntax">Syntaks</str>
+<str name="Type">Type</str>
+<str name="Value">Verdi</str>
+<!-- Text that goes before a link to a topic -->
+<str name="intro-to-topic-link"></str>
+
+<!-- peril notice labels -->
+<str name="Note">Merk</str>
+<str name="Notes">Merknader</str>
+<str name="Tip">Tips</str>
+<str name="Fastpath">Fastpath</str>
+<str name="Important">Viktig</str>
+<str name="Attention">Merk</str>
+<str name="Caution">FORSIKTIG</str>
+<str name="Danger">FARE</str>
+<str name="Remember">Husk</str>
+<str name="Restriction">Begrensning</str>
+<str name="Warning">Advarsel</str>
+
+<!-- default title text for section level generated sections -->
+<str name="Contents">Innhold</str>
+<str name="Related concepts">Relaterte konsepter</str>
+<str name="Related tasks">Relaterte oppgaver</str>
+<str name="Related reference">Relatert referanse</str>
+<str name="Related information">Relatert informasjon</str>
+
+<str name="Prerequisite">Forutsetning</str>
+<str name="Prerequisites">Forutsetninger</str>
+<str name="or">eller</str>
+<str name="figure-number-separator"> </str>
+
+<!--Task section labels -->
+<str name="task_context">Om denne oppgaven</str>
+<str name="task_example">Eksempel</str>
+<str name="task_postreq">Hva du nå skal gjøre</str>
+<str name="task_prereq">Før du begynner</str>
+<str name="task_procedure">Fremgangsmåte</str>
+<str name="task_results">Resultater</str>
+
+<str name="Copyright">Opphavsrett</str>
+
+<!-- Symbols -->
+<str name="OpenQuote">&quot;</str>
+<str name="CloseQuote">&quot;</str>
+<str name="ColonSymbol">:</str>
+ 
+<!-- For odt transform -->
+<str name="On the page"> på side </str>
+<str name="Related Links">Relaterte koblinger</str>
+<str name="List item">Listeelement.</str>
+<str name="Foot note">Fotnote.</str>
+<str name="Page"> side </str>
+<str name="Unordered List bullet">•</str>
+
+</strings>

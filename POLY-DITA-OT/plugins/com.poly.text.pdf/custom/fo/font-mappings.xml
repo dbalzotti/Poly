@@ -1,0 +1,401 @@
+<?xml version="1.0"?>
+
+<font-mappings>
+    <font-table>
+        <!--logical-font name="GestaMedium">
+            <physical-font char-set="default">
+                <font-face>Gesta Md</font-face>
+            </physical-font>
+            <physical-font char-set="Arabic">
+                <font-face>Arial</font-face>
+            </physical-font>
+            <physical-font char-set="Simplified Chinese">
+                <font-face>HeiS ASC Medium</font-face>
+            </physical-font>
+            <physical-font char-set="Thai">
+                <font-face>Cordia New</font-face>
+                <letter-spacing>0em</letter-spacing>
+            </physical-font>
+            <physical-font char-set="Traditional Chinese">
+                <font-face>DFYuanHK-W7</font-face>
+            </physical-font>
+            <physical-font char-set="Japanese">
+                <font-face>Kozuka Gothic Std M</font-face>
+            </physical-font>
+            <physical-font char-set="Korean">
+                <font-face>UnDotum Bold</font-face>
+            </physical-font>
+            <physical-font char-set="Russian">
+                <font-face>Calibri</font-face>
+            </physical-font>
+            <physical-font char-set="Greek">
+                <font-face>Myriad Pro</font-face>
+            </physical-font>
+            <physical-font char-set="Symbols">
+                <font-face>ZapfDingbats</font-face>
+            </physical-font>
+            <physical-font char-set="SubmenuSymbol">
+                <font-face>ZapfDingbats</font-face>
+            </physical-font>
+            <physical-font char-set="SymbolsSuperscript">
+                <font-face>Arial</font-face>
+                <baseline-shift>20%</baseline-shift>
+                <override-size>smaller</override-size>
+            </physical-font>
+        </logical-font>
+        
+        <logical-font name="GestaLight">
+            <physical-font char-set="default">
+                <font-face>Gesta Lt</font-face>
+            </physical-font>
+            <physical-font char-set="Arabic">
+                <font-face>Arial</font-face>
+            </physical-font>
+            <physical-font char-set="Thai">
+                <font-face>Cordia New</font-face>
+                <letter-spacing>0em</letter-spacing>
+            </physical-font>
+            <physical-font char-set="Simplified Chinese">
+                <font-face>HeiS ASC Light</font-face>
+            </physical-font>
+            <physical-font char-set="Traditional Chinese">
+                <font-face>DFYuanHK</font-face>
+            </physical-font>
+            <physical-font char-set="Japanese">
+                <font-face>Kozuka Gothic Std L</font-face>
+            </physical-font>
+            <physical-font char-set="Korean">
+                <font-face>Gulim</font-face>
+            </physical-font>
+            <physical-font char-set="Russian">
+                <font-face>Calibri Light</font-face>
+            </physical-font>
+            <physical-font char-set="Greek">
+                <font-face>Myriad Pro Light</font-face>
+            </physical-font>
+            <physical-font char-set="Symbols">
+                <font-face>ZapfDingbats</font-face>
+            </physical-font>
+            <physical-font char-set="SubmenuSymbol">
+                <font-face>ZapfDingbats</font-face>
+            </physical-font>
+            <physical-font char-set="SymbolsSuperscript">
+                <font-face>Arial</font-face>
+                <baseline-shift>20%</baseline-shift>
+                <override-size>smaller</override-size>
+            </physical-font>
+        </logical-font>
+        
+        <logical-font name="GestaBold">
+            <physical-font char-set="default">
+                <font-face>Gesta Bold</font-face>
+            </physical-font>
+            <physical-font char-set="Arabic">
+                <font-face>Arial</font-face>
+            </physical-font>
+            <physical-font char-set="Thai">
+                <font-face>Cordia New</font-face>
+                <letter-spacing>0em</letter-spacing>
+            </physical-font>
+            <physical-font char-set="Simplified Chinese">
+                <font-face>HeiS ASC Medium</font-face>
+            </physical-font>
+            <physical-font char-set="Traditional Chinese">
+                <font-face>DFYuanHK-W7</font-face>
+            </physical-font>
+            <physical-font char-set="Japanese">
+                <font-face>Kozuka Gothic Std M</font-face>
+            </physical-font>
+            <physical-font char-set="Korean">
+                <font-face>UnDotum Bold</font-face>
+            </physical-font>
+            <physical-font char-set="Russian">
+                <font-face>Calibri</font-face>
+            </physical-font>
+            <physical-font char-set="Greek">
+                <font-face>Myriad Pro</font-face>
+            </physical-font>
+            <physical-font char-set="Symbols">
+                <font-face>ZapfDingbats</font-face>
+            </physical-font>
+            <physical-font char-set="SubmenuSymbol">
+                <font-face>ZapfDingbats</font-face>
+            </physical-font>
+            <physical-font char-set="SymbolsSuperscript">
+                <font-face>Arial</font-face>
+                <baseline-shift>20%</baseline-shift>
+                <override-size>smaller</override-size>
+            </physical-font>
+        </logical-font>
+        
+        <logical-font name="HelveticaNeue-Condensed">
+            <physical-font char-set="default">
+                <font-face>HelveticaNeue-Condensed</font-face>
+            </physical-font>
+            <physical-font char-set="Russian">
+                <font-face>Calibri</font-face>
+            </physical-font>
+            <physical-font char-set="Greek">
+                <font-face>Myriad Pro</font-face>
+            </physical-font>
+            <physical-font char-set="Thai">
+                <font-face>Cordia New</font-face>
+                <letter-spacing>0em</letter-spacing>
+            </physical-font>
+            <physical-font char-set="Simplified Chinese">
+                <font-face>Arial Unicode MS</font-face>
+            </physical-font>
+            <physical-font char-set="Traditional Chinese">
+                <font-face>Arial Unicode MS</font-face>
+            </physical-font>
+        </logical-font>
+
+        <logical-font name="Gesta">
+            <physical-font char-set="default">
+                <font-face>Gesta</font-face>
+            </physical-font>
+            <physical-font char-set="Arabic">
+                <font-face>Arial</font-face>
+            </physical-font>
+            <physical-font char-set="Thai">
+                <font-face>Cordia New</font-face>
+                <letter-spacing>0em</letter-spacing>
+            </physical-font>
+            <physical-font char-set="Simplified Chinese">
+                <font-face>HeiS ASC Light</font-face>
+            </physical-font>
+            <physical-font char-set="Traditional Chinese">
+                <font-face>DFYuanHK</font-face>
+            </physical-font>
+            <physical-font char-set="Japanese">
+                <font-face>Kozuka Gothic Std L</font-face>
+            </physical-font>
+            <physical-font char-set="Korean">
+                <font-face>Gulim</font-face>
+            </physical-font>
+            <physical-font char-set="Russian">
+                <font-face>Calibri</font-face>
+            </physical-font>
+            <physical-font char-set="Greek">
+                <font-face>Myriad Pro</font-face>
+            </physical-font>
+            <physical-font char-set="Symbols">
+                <font-face>ZapfDingbats</font-face>
+            </physical-font>
+            <physical-font char-set="SubmenuSymbol">
+                <font-face>ZapfDingbats</font-face>
+            </physical-font>
+            <physical-font char-set="SymbolsSuperscript">
+                <font-face>Arial</font-face>
+                <baseline-shift>20%</baseline-shift>
+                <override-size>smaller</override-size>
+            </physical-font>
+        </logical-font-->
+
+        <logical-font name="Sans">
+            <physical-font char-set="default">
+                <font-face>Lato, Arial</font-face>
+            </physical-font>
+            <physical-font char-set="Arabic">
+                <font-face>Lato, Arial</font-face>
+            </physical-font>
+            <physical-font char-set="Thai">
+                <!-- Suite April-2014: set letter-spacing to 0em to avoid diacritical marks place holder in output - mk -->
+                <font-face>Cordia New</font-face>
+                <letter-spacing>0em</letter-spacing>
+            </physical-font>
+            <physical-font char-set="Simplified Chinese">
+                <font-face>HeiS ASC Light</font-face>
+            </physical-font>
+            <physical-font char-set="Traditional Chinese">
+                <font-face>DFYuanHK</font-face>
+            </physical-font>
+            <physical-font char-set="Japanese">
+                <font-face>Kozuka Gothic Std L</font-face>
+            </physical-font>
+            <physical-font char-set="Korean">
+                <font-face>Gulim</font-face>
+            </physical-font>
+            <physical-font char-set="Russian">
+                <font-face>Calibri</font-face>
+            </physical-font>
+            <physical-font char-set="Greek">
+                <font-face>Myriad Pro</font-face>
+            </physical-font>
+            <physical-font char-set="Symbols">
+                <font-face>ZapfDingbats</font-face>
+            </physical-font>
+            <physical-font char-set="SubmenuSymbol">
+                <font-face>ZapfDingbats</font-face>
+            </physical-font>
+            <physical-font char-set="SymbolsSuperscript">
+                <font-face>Lato, Arial</font-face>
+                <baseline-shift>20%</baseline-shift>
+                <override-size>smaller</override-size>
+            </physical-font>
+        </logical-font>
+		
+        <logical-font name="Sans-Title">
+            <physical-font char-set="default">
+                <font-face>Arial</font-face>
+            </physical-font>
+            <physical-font char-set="Arabic">
+                <font-face>Arial</font-face>
+            </physical-font>
+            <physical-font char-set="Thai">
+                <!-- Suite April-2014: set letter-spacing to 0em to avoid diacritical marks place holder in output - mk -->
+                <font-face>Cordia New</font-face>
+                <letter-spacing>0em</letter-spacing>
+            </physical-font>
+            <physical-font char-set="Simplified Chinese">
+                <font-face>HeiS ASC Light</font-face>
+            </physical-font>
+            <physical-font char-set="Traditional Chinese">
+                <font-face>DFYuanHK</font-face>
+            </physical-font>
+            <physical-font char-set="Japanese">
+                <font-face>Kozuka Gothic Std L</font-face>
+            </physical-font>
+            <physical-font char-set="Korean">
+                <font-face>Gulim</font-face>
+            </physical-font>
+            <physical-font char-set="Russian">
+                <font-face>Calibri</font-face>
+            </physical-font>
+            <physical-font char-set="Greek">
+                <font-face>Myriad Pro</font-face>
+            </physical-font>
+            <physical-font char-set="Symbols">
+                <font-face>ZapfDingbats</font-face>
+            </physical-font>
+            <physical-font char-set="SubmenuSymbol">
+                <font-face>ZapfDingbats</font-face>
+            </physical-font>
+            <physical-font char-set="SymbolsSuperscript">
+                <font-face>Lato, Arial</font-face>
+                <baseline-shift>20%</baseline-shift>
+                <override-size>smaller</override-size>
+            </physical-font>
+        </logical-font>
+
+        <logical-font name="Serif">
+            <physical-font char-set="default">
+                <font-face>Lato, Arial</font-face>
+            </physical-font>
+            <physical-font char-set="Russian">
+                <font-face>Calibri</font-face>
+            </physical-font>
+            <physical-font char-set="Arabic">
+                <font-face>Lato, Arial</font-face>
+            </physical-font>
+            <physical-font char-set="Thai">
+                <!-- Suite April-2014: set letter-spacing to 0em to avoid diacritical marks place holder in output - mk -->
+                <font-face>Cordia New</font-face>
+                <letter-spacing>0em</letter-spacing>
+            </physical-font>
+            <physical-font char-set="Simplified Chinese">
+                <font-face>HeiS ASC Light</font-face>
+            </physical-font>
+            <physical-font char-set="Traditional Chinese">
+                <font-face>DFYuanHK</font-face>
+            </physical-font>
+            <physical-font char-set="Japanese">
+                <!-- Suite July-2016  0012758: ensure typefaces are specified in GSG, along with sizes -->
+                <font-face>Kozuka Gothic Std L</font-face>
+            </physical-font>
+            <physical-font char-set="Korean">
+                <font-face>Gulim</font-face>
+            </physical-font>
+            <physical-font char-set="Greek">
+                <font-face>Myriad Pro</font-face>
+            </physical-font>
+            <physical-font char-set="Symbols">
+                <font-face>ZapfDingbats</font-face>
+            </physical-font>
+            <physical-font char-set="SubmenuSymbol">
+                <font-face>ZapfDingbats</font-face>
+            </physical-font>
+            <physical-font char-set="SymbolsSuperscript">
+                <font-face>Arial</font-face>
+                <baseline-shift>20%</baseline-shift>
+                <override-size>smaller</override-size>
+            </physical-font>
+        </logical-font>
+
+        <logical-font name="Monospaced">
+            <physical-font char-set="default">
+                <font-face>Lato, Arial</font-face>
+            </physical-font>
+            <physical-font char-set="Russian">
+                <font-face>Calibri</font-face>
+            </physical-font>
+            <physical-font char-set="Thai">
+                <font-face>Cordia New</font-face>
+                <letter-spacing>0em</letter-spacing>
+            </physical-font>
+            <physical-font char-set="Arabic">
+                <font-face>Lato, Arial</font-face>
+            </physical-font>
+            <physical-font char-set="Simplified Chinese">
+                <font-face>HeiS ASC Light</font-face>
+            </physical-font>
+            <physical-font char-set="Traditional Chinese">
+                <font-face>DFYuanHK</font-face>
+            </physical-font>
+            <physical-font char-set="Japanese">
+                <font-face>Kozuka Gothic Std L</font-face>
+            </physical-font>
+            <physical-font char-set="Korean">
+                <font-face>Gulim</font-face>
+            </physical-font>
+            <physical-font char-set="Greek">
+                <font-face>Myriad Pro</font-face>
+            </physical-font>
+        </logical-font>
+
+        <logical-font name="prodname">
+            <physical-font char-set="default">
+                <font-face>Arial</font-face>
+            </physical-font>
+            <physical-font char-set="Russian">
+                <font-face>Calibri</font-face>
+            </physical-font>
+            <physical-font char-set="Thai">
+                <font-face>Cordia New</font-face>
+                <letter-spacing>0em</letter-spacing>
+            </physical-font>
+            <physical-font char-set="Arabic">
+                <font-face>Arial</font-face>
+            </physical-font>
+            <physical-font char-set="Simplified Chinese">
+                <font-face>HeiS ASC Light</font-face>
+            </physical-font>
+            <physical-font char-set="Traditional Chinese">
+                <font-face>DFYuanHK</font-face>
+            </physical-font>
+            <physical-font char-set="Japanese">
+                <font-face>Kozuka Gothic Std L</font-face>
+            </physical-font>
+            <physical-font char-set="Korean">
+                <font-face>Gulim</font-face>
+            </physical-font>
+            <physical-font char-set="Greek">
+                <font-face>Myriad Pro</font-face>
+            </physical-font>
+            <physical-font char-set="Symbols">
+                <font-face>ZapfDingbats</font-face>
+            </physical-font>
+            <physical-font char-set="SubmenuSymbol">
+                <font-face>ZapfDingbats</font-face>
+            </physical-font>
+            <physical-font char-set="SymbolsSuperscript">
+                <font-face>Arial</font-face>
+                <baseline-shift>40%</baseline-shift>
+                <override-size>20%</override-size>
+            </physical-font>
+        </logical-font>
+    </font-table>
+    
+    
+    
+</font-mappings>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project name="poly-text-pdf">
+    <target name="dita2poly-text-pdf.init">
+        <property name="customization.dir" location="${dita.plugin.poly-text-pdf.dir}/custom"/>
+		<property name="args.rellinks" value="nofamily"/>
+		<property name="preprocess.chunk.skip" value="true"/>
+        <property name="args.chapter.layout" value="BASIC" />
+        <property name="args.bookmark.style" value="COLLAPSED" />
+        <property name="args.gen.task.lbl" value="true" />
+        <property name="args.fo.include.rellinks" value="none" />
+        <property name="args.bookmap-order" value="retain"/>
+	    <property name="pdf.formatter" value="ah"/>
+    	<property name="axf.path" value="C:\Program Files\AntennaHouse\AHFormatterV65"/>
+        <property name="env.AXF_OPT" location="${dita.plugin.poly-text-pdf.dir}/poly_ah_options.xml"/>
+    </target>
+    <target name="dita2poly-text-pdf" depends="dita2poly-text-pdf.init, dita2pdf2"/>
+</project>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.-->
+<!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. -->
+
+<strings xml:lang="en-us">        <!-- US English -->
+
+<!-- various labels (not author controlled) -->
+<str name="Figure">Slika</str>
+<str name="Table">Tablica</str>
+<str name="Next topic">Sljedeća tema</str>
+<str name="Previous topic">Prethodna tema</str>
+<str name="Parent topic">Tema za roditelje</str>
+<str name="Required cleanup">Potrebno čišćenje</str>
+<str name="Draft comment">Skica komentara</str>
+<str name="Option">Opcija</str>
+<str name="Description">Opis</str>
+<str name="Optional">Neobavezno</str>
+<str name="Required">Obavezno</str>
+<str name="Skip visual syntax diagram">Preskakanje vizualnog dijagrama sintakse</str>
+<str name="Read syntax diagram">Čitanje dijagrama sintakse</str>
+<str name="Start of change">Početak promjene</str>
+<str name="End of change">Kraj promjene</str>
+<str name="Index">Indeks</str>
+<str name="Special characters">Posebni znakovi</str>
+<str name="Numerics">Brojevi</str>
+<str name="End notes">Krajnje bilješke</str>
+<str name="Artwork">Slika</str>
+<str name="Syntax">Sintaksa</str>
+<str name="Type">Vrsta</str>
+<str name="Value">Vrijednost</str>
+<!-- Text that goes before a link to a topic -->
+<str name="intro-to-topic-link"></str>
+
+<!-- peril notice labels -->
+<str name="Note">Napomena</str>
+<str name="Notes">Napomene</str>
+<str name="Tip">Savjet</str>
+<str name="Fastpath">Brzi put</str>
+<str name="Important">Važno</str>
+<str name="Attention">Pažnja</str>
+<str name="Caution">OPREZ</str>
+<str name="Danger">OPASNOST</str>
+<str name="Remember">Zapamtite</str>
+<str name="Restriction">Ograničenje</str>
+<str name="Warning">Upozorenje</str>
+
+<!-- default title text for section level generated sections -->
+<str name="Contents">Sadržaj</str>
+<str name="Related concepts">Povezani koncepti</str>
+<str name="Related tasks">Povezani zadaci</str>
+<str name="Related reference">Povezana referencija</str>
+<str name="Related information">Povezane informacije</str>
+
+<str name="Prerequisite">Preduvjet</str>
+<str name="Prerequisites">Preduvjeti</str>
+<str name="or">ili</str>
+<str name="figure-number-separator"> </str>
+
+<!--Task section labels -->
+<str name="task_context">O ovom zadatku</str>
+<str name="task_example">Primjer</str>
+<str name="task_postreq">Što učiniti sljedeće</str>
+<str name="task_prereq">Prije nego što počnete</str>
+<str name="task_procedure">Postupak</str>
+<str name="task_results">Rezultati</str>
+
+<str name="Copyright">Autorska prava</str>
+
+<!-- Symbols -->
+<str name="OpenQuote">&quot;</str>
+<str name="CloseQuote">&quot;</str>
+<str name="ColonSymbol">:</str>
+ 
+<!-- For odt transform -->
+<str name="On the page"> na stranici </str>
+<str name="Related Links">Povezane poveznice</str>
+<str name="List item">Stavka s popisa.</str>
+<str name="Foot note">Fusnota.</str>
+<str name="Page"> stranica </str>
+<str name="Unordered List bullet">•</str>
+
+</strings>

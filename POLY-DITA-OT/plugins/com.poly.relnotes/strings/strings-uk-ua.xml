@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.-->
+<!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. -->
+
+<strings xml:lang="en-us">        <!-- US English -->
+
+<!-- various labels (not author controlled) -->
+<str name="Figure">Малюнок</str>
+<str name="Table">Таблиця</str>
+<str name="Next topic">Наступний розділ</str>
+<str name="Previous topic">Попередній розділ</str>
+<str name="Parent topic">Головний розділ</str>
+<str name="Required cleanup">Потрібне очищення</str>
+<str name="Draft comment">Макет коментаря</str>
+<str name="Option">Опція</str>
+<str name="Description">Опис</str>
+<str name="Optional">На вибір</str>
+<str name="Required">Необхідне</str>
+<str name="Skip visual syntax diagram">Пропустити діаграму візуального синтаксису</str>
+<str name="Read syntax diagram">Прочитати діаграму візуального синтаксису</str>
+<str name="Start of change">Початок змін</str>
+<str name="End of change">Кінець змін</str>
+<str name="Index">Індекс</str>
+<str name="Special characters">Спеціальні символи</str>
+<str name="Numerics">Чисельні</str>
+<str name="End notes">Прикінцеві примітки</str>
+<str name="Artwork">Ілюстрації</str>
+<str name="Syntax">Синтаксис</str>
+<str name="Type">Тип</str>
+<str name="Value">Значення</str>
+<!-- Text that goes before a link to a topic -->
+<str name="intro-to-topic-link"></str>
+
+<!-- peril notice labels -->
+<str name="Note">Примітка</str>
+<str name="Notes">Примітки</str>
+<str name="Tip">Підказка</str>
+<str name="Fastpath">Прямий вибір</str>
+<str name="Important">Важливо</str>
+<str name="Attention">Увага</str>
+<str name="Caution">ПОПЕРЕДЖЕННЯ</str>
+<str name="Danger">НЕБЕЗПЕКА</str>
+<str name="Remember">Запам&apos;ятайте</str>
+<str name="Restriction">Обмеження</str>
+<str name="Warning">Застереження</str>
+
+<!-- default title text for section level generated sections -->
+<str name="Contents">Зміст</str>
+<str name="Related concepts">Пов&apos;язані концепції</str>
+<str name="Related tasks">Пов&apos;язані завдання</str>
+<str name="Related reference">Пов&apos;язані посилання</str>
+<str name="Related information">Пов&apos;язана інформація</str>
+
+<str name="Prerequisite">Обов&apos;язкова умова</str>
+<str name="Prerequisites">Обов&apos;язкові умови</str>
+<str name="or">або</str>
+<str name="figure-number-separator"> </str>
+
+<!--Task section labels -->
+<str name="task_context">Про це завдання</str>
+<str name="task_example">Приклад</str>
+<str name="task_postreq">Що робити далі</str>
+<str name="task_prereq">Перш ніж почати</str>
+<str name="task_procedure">Процедура</str>
+<str name="task_results">Результати</str>
+
+<str name="Copyright">Авторські права</str>
+
+<!-- Symbols -->
+<str name="OpenQuote">&quot;</str>
+<str name="CloseQuote">&quot;</str>
+<str name="ColonSymbol">:</str>
+ 
+<!-- For odt transform -->
+<str name="On the page"> на сторінці </str>
+<str name="Related Links">Пов&apos;язані посилання</str>
+<str name="List item">Елемент списку.</str>
+<str name="Foot note">Підстрочна виноска.</str>
+<str name="Page"> сторінка </str>
+<str name="Unordered List bullet">•</str>
+
+</strings>

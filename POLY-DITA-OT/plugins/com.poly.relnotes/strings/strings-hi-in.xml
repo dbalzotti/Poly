@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.-->
+<!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. -->
+
+<strings xml:lang="en-us">        <!-- US English -->
+
+<!-- various labels (not author controlled) -->
+<str name="Figure">आकृति</str>
+<str name="Table">तालिका</str>
+<str name="Next topic">अगला टॉपिक</str>
+<str name="Previous topic">पिछला टॉपिक</str>
+<str name="Parent topic">पैरेंट टॉपिक</str>
+<str name="Required cleanup">आवश्यक क्लीनअप</str>
+<str name="Draft comment">ड्राफ्ट कमेन्ट</str>
+<str name="Option">विकल्प</str>
+<str name="Description">वर्णन</str>
+<str name="Optional">वैकल्पिक</str>
+<str name="Required">आवश्यक</str>
+<str name="Skip visual syntax diagram">विजुअल सिंटैक्स डाइग्राम स्किप करें</str>
+<str name="Read syntax diagram">सिंटैक्स डाइग्राम पढें</str>
+<str name="Start of change">परिवर्तन का प्रारंभ</str>
+<str name="End of change">परिवर्तन की समाप्ति</str>
+<str name="Index">अनुक्रमणिका</str>
+<str name="Special characters">विशेष वर्ण</str>
+<str name="Numerics">अंकीय</str>
+<str name="End notes">एंड नोट्स</str>
+<str name="Artwork">आर्टवर्क</str>
+<str name="Syntax">सिंटैक्स</str>
+<str name="Type">प्रकार</str>
+<str name="Value">मूल्य</str>
+<!-- Text that goes before a link to a topic -->
+<str name="intro-to-topic-link"></str>
+
+<!-- peril notice labels -->
+<str name="Note">नोट</str>
+<str name="Notes">नोट्स</str>
+<str name="Tip">सुझाव</str>
+<str name="Fastpath">फास्टपाथ</str>
+<str name="Important">महत्वपूर्ण</str>
+<str name="Attention">ध्यान दें</str>
+<str name="Caution">सावधानी</str>
+<str name="Danger">धोखा</str>
+<str name="Remember">याद रखें</str>
+<str name="Restriction">प्रतिबंध</str>
+<str name="Warning">चेतावनी</str>
+
+<!-- default title text for section level generated sections -->
+<str name="Contents">कंटेंट</str>
+<str name="Related concepts">संबंधित संकल्पनाएं</str>
+<str name="Related tasks">संबंधित कार्य</str>
+<str name="Related reference">संबंधित रेफरन्स</str>
+<str name="Related information">संबंधित जानकारी</str>
+
+<str name="Prerequisite">पूर्वावश्यकता</str>
+<str name="Prerequisites">पूर्वावश्यकताएं</str>
+<str name="or">या</str>
+<str name="figure-number-separator"> </str>
+
+<!--Task section labels -->
+<str name="task_context">इस कार्य के बारे में</str>
+<str name="task_example">उदाहरण</str>
+<str name="task_postreq">आगे क्या करना है?</str>
+<str name="task_prereq">आरंभ करने से पहले</str>
+<str name="task_procedure">प्रोसीजर</str>
+<str name="task_results">परिणाम</str>
+
+<str name="Copyright">कॉपीराईट</str>
+
+<!-- Symbols -->
+<str name="OpenQuote">&quot;</str>
+<str name="CloseQuote">&quot;</str>
+<str name="ColonSymbol">:</str>
+ 
+<!-- For odt transform -->
+<str name="On the page"> पृष्ठ पर </str>
+<str name="Related Links">संबंधित लिंक</str>
+<str name="List item">लिस्ट आइटम</str>
+<str name="Foot note">फूटनोट</str>
+<str name="Page"> पृष्ठ </str>
+<str name="Unordered List bullet">•</str>
+
+</strings>

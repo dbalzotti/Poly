@@ -1,0 +1,39 @@
+Revision "Rev" Translation
+
+All languages have revision number after the term, except Kazakh and Latvian's number is before the term.
+
+EN - Rev.
+BG - Ред.
+CS - Rev.
+DA - Rev.
+DE - Rev.
+EL - Αναθ.
+ES - Rev.
+ET - Vers.
+FI - Versio
+FR - Rév.
+HR - Ver.
+HU - Változat:
+ID - Rev.
+IT - Rev.
+JA - Rev.
+KK - -ред.      Kazakh has number before (3-ред.)
+KO - 개정판
+LT - Perž.
+LV - . pārsk. izd.      Latvian has number before (3. pārsk. izd.)
+NL - Rev.
+NO - Rev.
+PL - Wer.
+PT-PT - Rev.
+PT-BR - Rev.
+RO - Rev.
+RU - Pед.
+SK - Rev.
+SL - Razl.
+SR - Rev.
+SV - Rev.
+TR - Rev.
+UK - Ред.
+VI - Bản sửa đổi
+ZH-CN - 版本
+ZH-TW - 版本

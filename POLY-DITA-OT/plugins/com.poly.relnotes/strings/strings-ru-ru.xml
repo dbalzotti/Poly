@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.-->
+<!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. -->
+
+<strings xml:lang="en-us">        <!-- US English -->
+
+<!-- various labels (not author controlled) -->
+<str name="Figure">Иллюстрация </str>
+<str name="Table">Таблица</str>
+<str name="Next topic">Следующая тема</str>
+<str name="Previous topic">Предыдущая тема</str>
+<str name="Parent topic">Основная тема</str>
+<str name="Required cleanup">Требуется очистка</str>
+<str name="Draft comment">Черновик комментария</str>
+<str name="Option">Действие</str>
+<str name="Description">Описание</str>
+<str name="Optional">Отдельно</str>
+<str name="Required">Требуется</str>
+<str name="Skip visual syntax diagram">Пропустить визуальную синтаксическую диаграмму</str>
+<str name="Read syntax diagram">Прочесть синтаксическую диаграмму</str>
+<str name="Start of change">Начало изменения</str>
+<str name="End of change">Конец изменения</str>
+<str name="Index">Указатель</str>
+<str name="Special characters">Специальные символы</str>
+<str name="Numerics">Числа</str>
+<str name="End notes">Заключительные примечания</str>
+<str name="Artwork">Графика</str>
+<str name="Syntax">Синтаксис</str>
+<str name="Type">Тип</str>
+<str name="Value">Выгода</str>
+<!-- Text that goes before a link to a topic -->
+<str name="intro-to-topic-link"></str>
+
+<!-- peril notice labels -->
+<str name="Note">Примечание</str>
+<str name="Notes">Для заметок</str>
+<str name="Tip">Совет</str>
+<str name="Fastpath">Прямая ссылка</str>
+<str name="Important">Внимание!</str>
+<str name="Attention">Внимание</str>
+<str name="Caution">ОСТОРОЖНО!</str>
+<str name="Danger">ОПАСНОСТЬ</str>
+<str name="Remember">Запомнить</str>
+<str name="Restriction">Ограничение</str>
+<str name="Warning">Предупреждение</str>
+
+<!-- default title text for section level generated sections -->
+<str name="Contents">Содержание</str>
+<str name="Related concepts">Связанные понятия</str>
+<str name="Related tasks">Связанные задачи</str>
+<str name="Related reference">Связанные ссылки</str>
+<str name="Related information">Связанная информация</str>
+
+<str name="Prerequisite">Необходимое условие</str>
+<str name="Prerequisites">Необходимые условия</str>
+<str name="or">или</str>
+<str name="figure-number-separator"> </str>
+
+<!--Task section labels -->
+<str name="task_context">Об этой задаче</str>
+<str name="task_example">Примеры</str>
+<str name="task_postreq">Что дальше</str>
+<str name="task_prereq">В первую очередь</str>
+<str name="task_procedure">Процедура</str>
+<str name="task_results">Результаты</str>
+
+<str name="Copyright">Авторское право</str>
+
+<!-- Symbols -->
+<str name="OpenQuote">&quot;</str>
+<str name="CloseQuote">&quot;</str>
+<str name="ColonSymbol">:</str>
+ 
+<!-- For odt transform -->
+<str name="On the page"> на странице </str>
+<str name="Related Links">Связанные ссылки</str>
+<str name="List item">Элемент списка.</str>
+<str name="Foot note">Сноска.</str>
+<str name="Page"> страница </str>
+<str name="Unordered List bullet">•</str>
+
+</strings>

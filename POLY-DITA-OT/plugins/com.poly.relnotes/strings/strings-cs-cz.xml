@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.-->
+<!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. -->
+
+<strings xml:lang="en-us">        <!-- US English -->
+
+<!-- various labels (not author controlled) -->
+<str name="Figure">Obrázek</str>
+<str name="Table">Tabulka</str>
+<str name="Next topic">Další téma</str>
+<str name="Previous topic">Předchozí téma</str>
+<str name="Parent topic">Nadřazené téma</str>
+<str name="Required cleanup">Je požadováno vyčištění</str>
+<str name="Draft comment">Koncept připomínky</str>
+<str name="Option">Možnosti</str>
+<str name="Description">Popis</str>
+<str name="Optional">Volitelné</str>
+<str name="Required">Požadováno</str>
+<str name="Skip visual syntax diagram">Přeskočit diagram vizuální syntaxe</str>
+<str name="Read syntax diagram">Číst diagram syntaxe</str>
+<str name="Start of change">Začátek změny</str>
+<str name="End of change">Konec změny</str>
+<str name="Index">Rejstřík</str>
+<str name="Special characters">Speciální znaky</str>
+<str name="Numerics">Číslice</str>
+<str name="End notes">Poznámky pod čarou</str>
+<str name="Artwork">Grafika</str>
+<str name="Syntax">Syntaxe</str>
+<str name="Type">Typ</str>
+<str name="Value">Hodnota</str>
+<!-- Text that goes before a link to a topic -->
+<str name="intro-to-topic-link"></str>
+
+<!-- peril notice labels -->
+<str name="Note">Poznámka</str>
+<str name="Notes">Poznámky</str>
+<str name="Tip">Tip</str>
+<str name="Fastpath">Rychlá cesta</str>
+<str name="Important">Důležité</str>
+<str name="Attention">Pozor</str>
+<str name="Caution">UPOZORNĚNÍ</str>
+<str name="Danger">NEBEZPEČÍ</str>
+<str name="Remember">Pamatujte</str>
+<str name="Restriction">Omezení</str>
+<str name="Warning">Výstraha</str>
+
+<!-- default title text for section level generated sections -->
+<str name="Contents">Obsah</str>
+<str name="Related concepts">Související koncepce</str>
+<str name="Related tasks">Příbuzné úlohy</str>
+<str name="Related reference">Příbuzný odkaz</str>
+<str name="Related information">Související informace</str>
+
+<str name="Prerequisite">Předpoklad</str>
+<str name="Prerequisites">Předpoklady</str>
+<str name="or">nebo</str>
+<str name="figure-number-separator"> </str>
+
+<!--Task section labels -->
+<str name="task_context">O této úloze</str>
+<str name="task_example">Příklad</str>
+<str name="task_postreq">Další postup</str>
+<str name="task_prereq">Než začnete</str>
+<str name="task_procedure">Postup</str>
+<str name="task_results">Výsledky</str>
+
+<str name="Copyright">Copyright</str>
+
+<!-- Symbols -->
+<str name="OpenQuote">&quot;</str>
+<str name="CloseQuote">&quot;</str>
+<str name="ColonSymbol">:</str>
+ 
+<!-- For odt transform -->
+<str name="On the page"> na str. </str>
+<str name="Related Links">Související odkazy</str>
+<str name="List item">Položka seznamu.</str>
+<str name="Foot note">Poznámka pod čarou.</str>
+<str name="Page"> str. </str>
+<str name="Unordered List bullet">•</str>
+
+</strings>

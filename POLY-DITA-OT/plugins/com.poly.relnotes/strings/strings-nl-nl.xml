@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.-->
+<!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. -->
+
+<strings xml:lang="en-us">        <!-- US English -->
+
+<!-- various labels (not author controlled) -->
+<str name="Figure">Afbeelding</str>
+<str name="Table">Tabel</str>
+<str name="Next topic">Volgend onderwerp</str>
+<str name="Previous topic">Vorig onderwerp</str>
+<str name="Parent topic">Bovenliggend onderwerp</str>
+<str name="Required cleanup">Opschonen vereist</str>
+<str name="Draft comment">Conceptopmerking</str>
+<str name="Option">Optie</str>
+<str name="Description">Beschrijving</str>
+<str name="Optional">Optioneel</str>
+<str name="Required">Vereist</str>
+<str name="Skip visual syntax diagram">Visueel syntaxisdiagram overslaan</str>
+<str name="Read syntax diagram">Syntaxisdiagram lezen</str>
+<str name="Start of change">Begin van wijziging</str>
+<str name="End of change">Einde van wijziging</str>
+<str name="Index">Index</str>
+<str name="Special characters">Speciale tekens</str>
+<str name="Numerics">Numerieke waarden</str>
+<str name="End notes">Eindnotities</str>
+<str name="Artwork">Illustraties</str>
+<str name="Syntax">Syntaxis</str>
+<str name="Type">Type</str>
+<str name="Value">Waarde</str>
+<!-- Text that goes before a link to a topic -->
+<str name="intro-to-topic-link"></str>
+
+<!-- peril notice labels -->
+<str name="Note">Opmerking</str>
+<str name="Notes">Opmerkingen</str>
+<str name="Tip">Tip</str>
+<str name="Fastpath">Snelle oplossing</str>
+<str name="Important">Belangrijk</str>
+<str name="Attention">Let op</str>
+<str name="Caution">VOORZICHTIG</str>
+<str name="Danger">GEVAAR</str>
+<str name="Remember">Onthoud</str>
+<str name="Restriction">Beperking</str>
+<str name="Warning">Waarschuwing</str>
+
+<!-- default title text for section level generated sections -->
+<str name="Contents">Inhoud</str>
+<str name="Related concepts">Gerelateerde concepten</str>
+<str name="Related tasks">Gerelateerde taken</str>
+<str name="Related reference">Gerelateerde referentie</str>
+<str name="Related information">Gerelateerde informatie</str>
+
+<str name="Prerequisite">Vereiste</str>
+<str name="Prerequisites">Vereisten</str>
+<str name="or">of</str>
+<str name="figure-number-separator"> </str>
+
+<!--Task section labels -->
+<str name="task_context">Over deze taak</str>
+<str name="task_example">Voorbeeld</str>
+<str name="task_postreq">Volgende acties</str>
+<str name="task_prereq">Voordat u begint</str>
+<str name="task_procedure">Procedure</str>
+<str name="task_results">Resultaten</str>
+
+<str name="Copyright">Copyright</str>
+
+<!-- Symbols -->
+<str name="OpenQuote">&quot;</str>
+<str name="CloseQuote">&quot;</str>
+<str name="ColonSymbol">:</str>
+ 
+<!-- For odt transform -->
+<str name="On the page"> op pagina </str>
+<str name="Related Links">Gerelateerde koppelingen</str>
+<str name="List item">Lijstonderdeel.</str>
+<str name="Foot note">Voetnoot.</str>
+<str name="Page"> pagina </str>
+<str name="Unordered List bullet">•</str>
+
+</strings>

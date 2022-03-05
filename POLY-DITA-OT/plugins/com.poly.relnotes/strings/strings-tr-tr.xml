@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.-->
+<!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. -->
+
+<strings xml:lang="en-us">        <!-- US English -->
+
+<!-- various labels (not author controlled) -->
+<str name="Figure">Şekil</str>
+<str name="Table">Tablo</str>
+<str name="Next topic">Sonraki konu</str>
+<str name="Previous topic">Önceki konu</str>
+<str name="Parent topic">Ebeveyn konusu</str>
+<str name="Required cleanup">Gerekli temizlik</str>
+<str name="Draft comment">Taslak yorumu</str>
+<str name="Option">Seçenek</str>
+<str name="Description">Açıklama</str>
+<str name="Optional">İsteğe Bağlı</str>
+<str name="Required">Zorunlu</str>
+<str name="Skip visual syntax diagram">Görsel söz dizimi şemasını atla</str>
+<str name="Read syntax diagram">Söz dizimi şemasını oku</str>
+<str name="Start of change">Değişiklik başlangıcı</str>
+<str name="End of change">Değişiklik sonu</str>
+<str name="Index">Dizin</str>
+<str name="Special characters">Özel karakterler</str>
+<str name="Numerics">Sayılar</str>
+<str name="End notes">Dip notlar</str>
+<str name="Artwork">Çizimler</str>
+<str name="Syntax">Söz dizimi</str>
+<str name="Type">Tür</str>
+<str name="Value">Değer</str>
+<!-- Text that goes before a link to a topic -->
+<str name="intro-to-topic-link"></str>
+
+<!-- peril notice labels -->
+<str name="Note">Not</str>
+<str name="Notes">Notlar</str>
+<str name="Tip">İpucu</str>
+<str name="Fastpath">Kestirme Yol</str>
+<str name="Important">Önemli</str>
+<str name="Attention">Dikkat</str>
+<str name="Caution">İKAZ</str>
+<str name="Danger">TEHLİKE</str>
+<str name="Remember">Unutmayın</str>
+<str name="Restriction">Kayıt</str>
+<str name="Warning">Uyarı</str>
+
+<!-- default title text for section level generated sections -->
+<str name="Contents">İçindekiler</str>
+<str name="Related concepts">İlgili kavramlar</str>
+<str name="Related tasks">İlgili görevler</str>
+<str name="Related reference">İlgili referanslar</str>
+<str name="Related information">İlgili bilgiler</str>
+
+<str name="Prerequisite">Ön koşul</str>
+<str name="Prerequisites">Ön koşullar</str>
+<str name="or">veya</str>
+<str name="figure-number-separator"> </str>
+
+<!--Task section labels -->
+<str name="task_context">Bu görev hakkında</str>
+<str name="task_example">Örnek</str>
+<str name="task_postreq">Sonraki işlem</str>
+<str name="task_prereq">Başlamadan önce</str>
+<str name="task_procedure">Prosedür</str>
+<str name="task_results">Sonuçlar</str>
+
+<str name="Copyright">Telif hakkı</str>
+
+<!-- Symbols -->
+<str name="OpenQuote">&quot;</str>
+<str name="CloseQuote">&quot;</str>
+<str name="ColonSymbol">:</str>
+ 
+<!-- For odt transform -->
+<str name="On the page"> sayfa </str>
+<str name="Related Links">İlgili Bağlantılar</str>
+<str name="List item">Liste ögesi.</str>
+<str name="Foot note">Dipnot.</str>
+<str name="Page"> sayfa  </str>
+<str name="Unordered List bullet">•</str>
+
+</strings>

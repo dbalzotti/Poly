@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.-->
+<!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. -->
+
+<strings xml:lang="en-us">        <!-- US English -->
+
+<!-- various labels (not author controlled) -->
+<str name="Figure">Kuva</str>
+<str name="Table">Taulukko</str>
+<str name="Next topic">Seuraava aihe</str>
+<str name="Previous topic">Edellinen aihe</str>
+<str name="Parent topic">Pääaihe</str>
+<str name="Required cleanup">Vaadittava puhdistus</str>
+<str name="Draft comment">Kommenttiluonnos</str>
+<str name="Option">Vaihtoehto</str>
+<str name="Description">Kuvaus</str>
+<str name="Optional">Lisävaruste</str>
+<str name="Required">Vaadittava</str>
+<str name="Skip visual syntax diagram">Ohita visuaalinen syntaksikaavio</str>
+<str name="Read syntax diagram">Lue syntaksikaavio</str>
+<str name="Start of change">Muutoksen aloitus</str>
+<str name="End of change">Muutoksen lopetus</str>
+<str name="Index">Hakemisto</str>
+<str name="Special characters">Erikoismerkit</str>
+<str name="Numerics">Numerot</str>
+<str name="End notes">Loppuviitteet</str>
+<str name="Artwork">Kuvamateriaali</str>
+<str name="Syntax">Syntaksi</str>
+<str name="Type">Type (Tyyppi)</str>
+<str name="Value">Arvo</str>
+<!-- Text that goes before a link to a topic -->
+<str name="intro-to-topic-link"></str>
+
+<!-- peril notice labels -->
+<str name="Note">Huom.</str>
+<str name="Notes">Huomautukset</str>
+<str name="Tip">Vinkki</str>
+<str name="Fastpath">Oikopolku</str>
+<str name="Important">Tärkeä</str>
+<str name="Attention">Huomio</str>
+<str name="Caution">VAROITUS</str>
+<str name="Danger">VAARA</str>
+<str name="Remember">Muista</str>
+<str name="Restriction">Rajoitus</str>
+<str name="Warning">Varoitus</str>
+
+<!-- default title text for section level generated sections -->
+<str name="Contents">Sisältö</str>
+<str name="Related concepts">Aiheeseen liittyvät käsitteet</str>
+<str name="Related tasks">Aiheeseen liittyvät tehtävät</str>
+<str name="Related reference">Aiheeseen liittyvät viittaukset</str>
+<str name="Related information">Aiheeseen liittyvät tiedot</str>
+
+<str name="Prerequisite">Ennakkoehto</str>
+<str name="Prerequisites">Ennakkoehdot</str>
+<str name="or">tai</str>
+<str name="figure-number-separator"> </str>
+
+<!--Task section labels -->
+<str name="task_context">Tietoa tästä tehtävästä</str>
+<str name="task_example">Esimerkki</str>
+<str name="task_postreq">Mitä seuraavaksi</str>
+<str name="task_prereq">Ennen kuin aloitat</str>
+<str name="task_procedure">Toimenpide</str>
+<str name="task_results">Tulokset</str>
+
+<str name="Copyright">Tekijänoikeus</str>
+
+<!-- Symbols -->
+<str name="OpenQuote">&quot;</str>
+<str name="CloseQuote">&quot;</str>
+<str name="ColonSymbol">:</str>
+ 
+<!-- For odt transform -->
+<str name="On the page"> sivulla </str>
+<str name="Related Links">Aiheeseen liittyvät linkit</str>
+<str name="List item">Luettelokohde.</str>
+<str name="Foot note">Alaviite.</str>
+<str name="Page"> sivu </str>
+<str name="Unordered List bullet">•</str>
+
+</strings>

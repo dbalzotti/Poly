@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.-->
+<!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. -->
+
+<strings xml:lang="en-us">        <!-- US English -->
+
+<!-- various labels (not author controlled) -->
+<str name="Figure">Figura</str>
+<str name="Table">Tabelul</str>
+<str name="Next topic">Subiectul următor</str>
+<str name="Previous topic">Subiectul anterior</str>
+<str name="Parent topic">Subiect-părinte</str>
+<str name="Required cleanup">Curăţare necesară</str>
+<str name="Draft comment">Comentariu în versiune preliminară</str>
+<str name="Option">Opțiune</str>
+<str name="Description">Descriere</str>
+<str name="Optional">Opţional</str>
+<str name="Required">Obligatoriu</str>
+<str name="Skip visual syntax diagram">Omitere diagramă sintaxă vizuală</str>
+<str name="Read syntax diagram">Citire diagramă sintaxă</str>
+<str name="Start of change">Începere modificare</str>
+<str name="End of change">Terminare modificare</str>
+<str name="Index">Index</str>
+<str name="Special characters">Caractere speciale</str>
+<str name="Numerics">Date numerice</str>
+<str name="End notes">Note de final</str>
+<str name="Artwork">Elemente artistice</str>
+<str name="Syntax">Sintaxă</str>
+<str name="Type">Tip</str>
+<str name="Value">Valoare</str>
+<!-- Text that goes before a link to a topic -->
+<str name="intro-to-topic-link"></str>
+
+<!-- peril notice labels -->
+<str name="Note">Notă</str>
+<str name="Notes">Note</str>
+<str name="Tip">Sfat</str>
+<str name="Fastpath">Cale rapidă</str>
+<str name="Important">Important</str>
+<str name="Attention">Atenţie</str>
+<str name="Caution">ATENŢIONARE</str>
+<str name="Danger">PERICOL</str>
+<str name="Remember">Reţineţi</str>
+<str name="Restriction">Restricţie</str>
+<str name="Warning">Avertisment</str>
+
+<!-- default title text for section level generated sections -->
+<str name="Contents">Conţinut</str>
+<str name="Related concepts">Concepte corelate</str>
+<str name="Related tasks">Activităţi corelate</str>
+<str name="Related reference">Referinţe corelate</str>
+<str name="Related information">Informaţii corelate</str>
+
+<str name="Prerequisite">Cerinţă preliminară</str>
+<str name="Prerequisites">Cerinţe preliminare</str>
+<str name="or">sau</str>
+<str name="figure-number-separator"> </str>
+
+<!--Task section labels -->
+<str name="task_context">Despre această activitate</str>
+<str name="task_example">Exemplu</str>
+<str name="task_postreq">Ce trebuie făcut în continuare</str>
+<str name="task_prereq">Înainte de a începe</str>
+<str name="task_procedure">Procedură</str>
+<str name="task_results">Rezultate</str>
+
+<str name="Copyright">Drept de autor</str>
+
+<!-- Symbols -->
+<str name="OpenQuote">&quot;</str>
+<str name="CloseQuote">&quot;</str>
+<str name="ColonSymbol">:</str>
+ 
+<!-- For odt transform -->
+<str name="On the page"> de la pagina </str>
+<str name="Related Links">Legături corelate</str>
+<str name="List item">Articol de listă.</str>
+<str name="Foot note">Notă de subsol.</str>
+<str name="Page"> pagina </str>
+<str name="Unordered List bullet">•</str>
+
+</strings>

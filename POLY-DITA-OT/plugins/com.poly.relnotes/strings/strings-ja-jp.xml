@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.-->
+<!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. -->
+
+<strings xml:lang="en-us">        <!-- US English -->
+
+<!-- various labels (not author controlled) -->
+<str name="Figure">図</str>
+<str name="Table">表</str>
+<str name="Next topic">次のトピック</str>
+<str name="Previous topic">前のトピック</str>
+<str name="Parent topic">親トピック</str>
+<str name="Required cleanup">必要なクリーンアップ</str>
+<str name="Draft comment">コメントの下書き</str>
+<str name="Option">オプション</str>
+<str name="Description">説明</str>
+<str name="Optional">オプション</str>
+<str name="Required">必要性</str>
+<str name="Skip visual syntax diagram">可視化構文ダイアグラムをスキップ</str>
+<str name="Read syntax diagram">構文ダイアグラムを読み込む</str>
+<str name="Start of change">変更開始</str>
+<str name="End of change">変更終了</str>
+<str name="Index">インデックス</str>
+<str name="Special characters">特殊文字</str>
+<str name="Numerics">数字</str>
+<str name="End notes">あとがき</str>
+<str name="Artwork">イラスト</str>
+<str name="Syntax">構文</str>
+<str name="Type">タイプ</str>
+<str name="Value">値</str>
+<!-- Text that goes before a link to a topic -->
+<str name="intro-to-topic-link"></str>
+
+<!-- peril notice labels -->
+<str name="Note">メモ</str>
+<str name="Notes">メモ：</str>
+<str name="Tip">ヒント</str>
+<str name="Fastpath">簡単な方法</str>
+<str name="Important">重要</str>
+<str name="Attention">注目</str>
+<str name="Caution">注意</str>
+<str name="Danger">危険</str>
+<str name="Remember">重要</str>
+<str name="Restriction">制限</str>
+<str name="Warning">警告</str>
+
+<!-- default title text for section level generated sections -->
+<str name="Contents">コンテンツ</str>
+<str name="Related concepts">関連コンセプト</str>
+<str name="Related tasks">関連作業</str>
+<str name="Related reference">関連参照</str>
+<str name="Related information">関連情報</str>
+
+<str name="Prerequisite">前提条件</str>
+<str name="Prerequisites">前提条件</str>
+<str name="or">または</str>
+<str name="figure-number-separator"> </str>
+
+<!--Task section labels -->
+<str name="task_context">この作業について</str>
+<str name="task_example">例</str>
+<str name="task_postreq">次の作業</str>
+<str name="task_prereq">はじめる前に</str>
+<str name="task_procedure">手順</str>
+<str name="task_results">結果</str>
+
+<str name="Copyright">著作権</str>
+
+<!-- Symbols -->
+<str name="OpenQuote">&quot;</str>
+<str name="CloseQuote">&quot;</str>
+<str name="ColonSymbol">：</str>
+ 
+<!-- For odt transform -->
+<str name="On the page"> ページの </str>
+<str name="Related Links">関連リンク</str>
+<str name="List item">リスト項目。</str>
+<str name="Foot note">脚注。</str>
+<str name="Page"> ページ </str>
+<str name="Unordered List bullet">•</str>
+
+</strings>

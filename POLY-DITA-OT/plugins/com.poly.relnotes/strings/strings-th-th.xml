@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.-->
+<!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. -->
+
+<strings xml:lang="en-us">        <!-- US English -->
+
+<!-- various labels (not author controlled) -->
+<str name="Figure">รูปภาพ</str>
+<str name="Table">ตาราง</str>
+<str name="Next topic">หัวข้อต่อไป</str>
+<str name="Previous topic">หัวข้อก่อนหน้า</str>
+<str name="Parent topic">หัวข้อหลัก</str>
+<str name="Required cleanup">ต้องลบออก</str>
+<str name="Draft comment">ข้อคิดเห็นฉบับร่าง</str>
+<str name="Option">ตัวเลือก</str>
+<str name="Description">คำอธิบาย</str>
+<str name="Optional">เลือกได้</str>
+<str name="Required">ต้องระบุ</str>
+<str name="Skip visual syntax diagram">ข้ามไดอะแกรมไวยากรณ์ที่มองเห็น</str>
+<str name="Read syntax diagram">อ่านไดอะแกรมไวยากรณ์</str>
+<str name="Start of change">เริ่มการเปลี่ยนแปลง</str>
+<str name="End of change">จบการเปลี่ยนแปลง</str>
+<str name="Index">ดัชนี</str>
+<str name="Special characters">อักขระพิเศษ</str>
+<str name="Numerics">ตัวเลข</str>
+<str name="End notes">การอ้างอิงท้ายเรื่อง</str>
+<str name="Artwork">อาร์ทเวิร์ค</str>
+<str name="Syntax">ไวยากรณ์</str>
+<str name="Type">ประเภท</str>
+<str name="Value">คุณค่า</str>
+<!-- Text that goes before a link to a topic -->
+<str name="intro-to-topic-link"></str>
+
+<!-- peril notice labels -->
+<str name="Note">หมายเหตุ</str>
+<str name="Notes">หมายเหตุ</str>
+<str name="Tip">เคล็ดลับ</str>
+<str name="Fastpath">ทางด่วน</str>
+<str name="Important">สิ่งสำคัญ</str>
+<str name="Attention">โปรดทราบ</str>
+<str name="Caution">ข้อควรระวัง</str>
+<str name="Danger">อันตราย</str>
+<str name="Remember">ข้อควรจำ</str>
+<str name="Restriction">ข้อจำกัด</str>
+<str name="Warning">คำเตือน</str>
+
+<!-- default title text for section level generated sections -->
+<str name="Contents">สิ่งที่ให้มาด้วย</str>
+<str name="Related concepts">แนวคิดที่เกี่ยวข้อง</str>
+<str name="Related tasks">งานที่เกี่ยวข้อง</str>
+<str name="Related reference">การอ้างอิงที่เกี่ยวข้อง</str>
+<str name="Related information">ข้อมูลที่เกี่ยวข้อง</str>
+
+<str name="Prerequisite">สิ่งที่ต้องทำก่อน</str>
+<str name="Prerequisites">สิ่งที่ต้องทำก่อน</str>
+<str name="or">หรือ</str>
+<str name="figure-number-separator"> </str>
+
+<!--Task section labels -->
+<str name="task_context">เกี่ยวกับงานนี้</str>
+<str name="task_example">ตัวอย่าง</str>
+<str name="task_postreq">สิ่งที่ต้องทำต่อไป</str>
+<str name="task_prereq">ก่อนเริ่มต้น</str>
+<str name="task_procedure">ขั้นตอน</str>
+<str name="task_results">ผลลัพธ์</str>
+
+<str name="Copyright">ลิขสิทธิ์</str>
+
+<!-- Symbols -->
+<str name="OpenQuote">&quot;</str>
+<str name="CloseQuote">&quot;</str>
+<str name="ColonSymbol">:</str>
+ 
+<!-- For odt transform -->
+<str name="On the page"> ที่หน้า </str>
+<str name="Related Links">ลิงก์ที่เกี่ยวข้อง</str>
+<str name="List item">แสดงรายการ</str>
+<str name="Foot note">เชิงอรรถ</str>
+<str name="Page"> หน้า  </str>
+<str name="Unordered List bullet">•</str>
+
+</strings>

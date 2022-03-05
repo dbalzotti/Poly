@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project name="gehc-user-pdf">
+    <target name="dita2gehc-user-pdf.init">
+        <property name="customization.dir" location="${dita.plugin.gehc-user-pdf.dir}/custom"/>
+		<property name="full.customization.dir" location="${customization.dir}" />
+		<property name="args.rellinks" value="nofamily"/>
+		<property name="pdf.formatter" value="ah"/>
+		<property name="preprocess.chunk.skip" value="true"/>
+    </target>
+    <target name="dita2gehc-user-pdf" depends="dita2gehc-user-pdf.init, dita2pdf2"/>
+    
+    
+</project>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="dita2polypdfrn" default="dita2polypdfrn">
+    
+    <property name="config.dir" value="cfg"/>
+    
+    <target name="dita2polypdfrn.init">
+        <property location="${dita.plugin.com.poly.pdf.dir}/Customization" name="customization.dir" />
+        <property name="args.chapter.layout" value="BASIC" />
+        <property name="args.bookmark.style" value="COLLAPSED" />
+        <property name="args.gen.task.lbl" value="true" />
+        <property name="args.fo.include.rellinks" value="none" />
+        <property name="args.bookmap-order" value="retain"/>
+	       <property name="pdf.formatter" value="ah"/>
+    	   <property name="axf.path" value="N:\Program Files\AntennaHouse\AHFormatterV62"/>
+        <property name="env.AXF_OPT" location="${dita.plugin.com.poly.pdf.dir}/polycom_ah_options.xml"/>
+    </target>
+    
+    <target depends="dita2polypdfrn.init, dita2pdf2" name="dita2polypdfrn" />
+    
+</project>

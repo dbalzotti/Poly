@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This file is part of the DITA Open Toolkit project.
+     See the accompanying license.txt file for applicable licenses. -->
+<!-- (c) Copyright IBM Corp. 2006 All Rights Reserved. -->
+<project name="com.poly.relnotes">
+  
+  <target name="dita2polypdfrn.init">
+    <property name="customization.dir" location="${dita.plugin.com.poly.relnotes.dir}/Customization"/>
+    </target>
+     <target name="dita2polypdfrn" depends="dita2polypdfrn.init, dita2pdf2"/>
+
+</project>

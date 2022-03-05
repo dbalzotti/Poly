@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.-->
+<!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. -->
+
+<strings xml:lang="en-us">        <!-- US English -->
+
+<!-- various labels (not author controlled) -->
+<str name="Figure">الشكل </str>
+<str name="Table">الجدول</str>
+<str name="Next topic">الموضوع التالي</str>
+<str name="Previous topic">الموضوع السابق</str>
+<str name="Parent topic">الموضوع الأساسي</str>
+<str name="Required cleanup">التنظيف المطلوب</str>
+<str name="Draft comment">مسودة تعليق</str>
+<str name="Option">زر Option (خيارات)</str>
+<str name="Description">الوصف</str>
+<str name="Optional">الملحقات</str>
+<str name="Required">مطلوب</str>
+<str name="Skip visual syntax diagram">تجاوز الرسم التخطيطي للقواعد البصرية</str>
+<str name="Read syntax diagram">الرسم التخطيطي لقواعد القراءة</str>
+<str name="Start of change">بدء التغيير</str>
+<str name="End of change">نهاية التغيير</str>
+<str name="Index">فهرس</str>
+<str name="Special characters">الأحرف الخاصة</str>
+<str name="Numerics">الأرقام</str>
+<str name="End notes">نهاية الملاحظات</str>
+<str name="Artwork">العمل الفني</str>
+<str name="Syntax">القواعد</str>
+<str name="Type">النوع</str>
+<str name="Value">القيمة</str>
+<!-- Text that goes before a link to a topic -->
+<str name="intro-to-topic-link"></str>
+
+<!-- peril notice labels -->
+<str name="Note">ملاحظة</str>
+<str name="Notes">ملاحظات</str>
+<str name="Tip">نصيحة</str>
+<str name="Fastpath">Fastpath</str>
+<str name="Important">معلومة مهمة</str>
+<str name="Attention">انتبه</str>
+<str name="Caution">تنبيه</str>
+<str name="Danger">خطر</str>
+<str name="Remember">تذكّر</str>
+<str name="Restriction">قيود</str>
+<str name="Warning">تحذير</str>
+
+<!-- default title text for section level generated sections -->
+<str name="Contents">المحتويات</str>
+<str name="Related concepts">مفاهيم ذات صلة</str>
+<str name="Related tasks">مهام ذات صلة</str>
+<str name="Related reference">مرجع ذو صلة</str>
+<str name="Related information">معلومات ذات صلة</str>
+
+<str name="Prerequisite">مطلب مسبق</str>
+<str name="Prerequisites">متطلبات مسبقة</str>
+<str name="or">أو</str>
+<str name="figure-number-separator"> </str>
+
+<!--Task section labels -->
+<str name="task_context">حول هذه المهمة</str>
+<str name="task_example">مثال</str>
+<str name="task_postreq">الإجراء التالي</str>
+<str name="task_prereq">قبل البدء بالاستخدام</str>
+<str name="task_procedure">الطريقة</str>
+<str name="task_results">النتائج</str>
+
+<str name="Copyright">حقوق النشر</str>
+
+<!-- Symbols -->
+<str name="OpenQuote">&quot;</str>
+<str name="CloseQuote">&quot;</str>
+<str name="ColonSymbol">:</str>
+ 
+<!-- For odt transform -->
+<str name="On the page"> في الصفحة </str>
+<str name="Related Links">روابط ذات صلة</str>
+<str name="List item">عنصر قائمة.</str>
+<str name="Foot note">حاشية.</str>
+<str name="Page"> الصفحة  </str>
+<str name="Unordered List bullet">•</str>
+
+</strings>

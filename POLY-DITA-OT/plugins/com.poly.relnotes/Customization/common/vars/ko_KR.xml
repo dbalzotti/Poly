@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Strings used for WD output. Comments with **** are specific instructions.
+-->
+<vars xmlns="http://www.idiominc.com/opentopic/vars">
+
+    <!-- 
+     
+      This file controls strings that appear in the published output.  
+      There is one version of this file per language.  To add support 
+      for a new language, simply create a copy of this file and name 
+      it using the <locale ISO code>.xml format.
+      
+    -->
+
+    <!-- 
+       Strings used in the headers and footers of pages.
+    -->
+
+    <!-- Product name to be placed inside headers etc. -->
+    <variable id="Product Name"/>
+
+     <!-- 
+    **** No need to translate these footers and headers as they are not used for WD output. **** -->
+     
+    <!-- The footer that appears on odd-numbered pages.  -->
+    <variable id="Body odd footer">- <param ref-name="pagenum"/>/<param ref-name="lastpage"/>페이지</variable>
+
+    <!-- The footer that appears on even-numbered pages. -->
+     <variable id="Body even footer">- <param ref-name="pagenum"/>/<param ref-name="lastpage"/>페이지</variable>
+
+    <!-- The footer that appears on the first page of a chapter. -->
+     <variable id="Body first footer">- <param ref-name="pagenum"/>/<param ref-name="lastpage"/>페이지</variable>
+
+    <!-- The header that appears on the first page of a chapter. -->
+    <variable id="Body first header"/>
+
+    <!-- The header that appears on odd-numbered pages. -->
+    <variable id="Body odd header"><!--<param ref-name="prodname"/>&#xA0;|&#xA0;<param ref-name="heading"/>&#xA0;|&#xA0;<param ref-name="pagenum"/>--></variable>
+
+    <!-- The header that appears on even-numbered pages. -->
+    <variable id="Body even header"><!--<param ref-name="pagenum"/>&#xA0;|&#xA0;<param ref-name="heading"/>&#xA0;|&#xA0;<param ref-name="prodname"/>--></variable>
+
+    <!-- The footer that appears on Preface odd-numbered pages. -->
+    <variable id="Preface odd footer"/>
+
+    <!-- The footer that appears on Preface even-numbered pages. -->
+    <variable id="Preface even footer"/>
+
+    <!-- The footer that appears on the first page of a Preface -->
+    <variable id="Preface first footer"/>
+
+    <!-- The header that appears on Preface odd-numbered pages. -->
+    <variable id="Preface odd header"><param ref-name="prodname"/>&#xA0;|&#xA0;소개&#xA0;|&#xA0;<param ref-name="pagenum"/></variable>
+
+    <!-- The header that appears on Preface even-numbered pages. -->
+    <variable id="Preface even header"><param ref-name="pagenum"/>&#xA0;|&#xA0;소개&#xA0;|&#xA0;<param ref-name="prodname"/></variable>
+
+    <!-- The header that appears on Preface first page. -->
+    <variable id="Preface first header"/>
+
+    <!-- The footer that appears on the odd-numbered table of contents
+         pages. --> 
+    <variable id="Toc odd footer"/>
+
+    <!-- The footer that appears on the even-numbered table of contents
+         pages. --> 
+    <variable id="Toc even footer"/>
+
+    <!-- The header that appears on the odd-numbered table of contents
+         pages. --> 
+    <variable id="Toc odd header"><param ref-name="prodname"/>&#xA0;|&#xA0;<param ref-name="heading"/>&#xA0;|&#xA0;<param ref-name="pagenum"/></variable>
+
+    <!-- The header that appears on the odd-numbered table of contents
+         pages. --> 
+    <variable id="Toc even header"><param ref-name="pagenum"/>&#xA0;|&#xA0;<param ref-name="heading"/>&#xA0;|&#xA0;<param ref-name="prodname"/></variable>
+
+    <!-- The footer that appears on the odd-numbered index pages. -->
+    <variable id="Index odd footer"/>
+
+    <!-- The footer that appears on the even-numbered index pages. -->
+    <variable id="Index even footer"/>
+
+    <!-- The header that appears on the odd-numbered index pages. -->
+    <variable id="Index odd header"><param ref-name="prodname"/>&#xA0;|&#xA0;<param ref-name="heading"/>&#xA0;|&#xA0;<param ref-name="pagenum"/></variable>
+
+    <!-- The header that appears on the even-numbered index pages. -->
+    <variable id="Index even header"><param ref-name="pagenum"/>&#xA0;|&#xA0;<param ref-name="heading"/>&#xA0;|&#xA0;<param ref-name="prodname"/></variable>
+
+    <!-- The formatting used to display ordered lists (e.g., "1., 2." or 
+         "1), 2)" -->
+    <variable id="Ordered List Number"><param ref-name="number"/>. </variable>
+
+    <!-- The unordered list bullet   -->
+     <variable id="Unordered List bullet">&#x25aa;</variable>
+     
+     <!-- **** Next 5 strings need translation. ***** -->
+
+    <!-- The heading string to put at the top of the Table of Contents -->
+    <variable id="Table of Contents">목차</variable>
+
+    <!-- The heading string to put at the top of the Index -->
+    <variable id="Index">색인</variable>
+
+    <variable id="Index Continued String">계속</variable>
+
+    <!--string before see element-->
+    <variable id="Index See String">참고 </variable>
+
+    <!--string before see also element-->
+    <variable id="Index See Also String">참고 </variable>
+     
+     <!-- **** Do not translate next string. ***** -->
+     
+    <!-- The string used to label a chapter within the table of contents. -->
+     <variable id="Table of Contents Chapter"><!--Chapter&#xA0;<param ref-name="number"/>&#xA0;&#xA0;--></variable>
+     
+     <!-- **** Translate any variable that has content unless otherwise directed
+          from this point on. ***** -->
+     
+    <!-- The string used to label an appendix within the table of contents. -->
+     <variable id="Table of Contents Appendix">부록&#xA0;<param ref-name="number"/>&#xA0;&#xA0;</variable>
+
+    <!-- The string used to label an part within the table of contents. -->
+     <variable id="Table of Contents Part">파트&#xA0;<param ref-name="number"/>&#xA0;&#xA0;</variable>
+
+    <!-- The string used to label an preface within the table of contents. -->
+     <variable id="Table of Contents Preface">머리글&#xA0;&#xA0;</variable>
+
+    <!-- The string used to label an preface within the table of contents. -->
+    <variable id="Table of Contents Notices"/>
+
+    <!-- The string used to label an preface in body text. -->
+    <variable id="Preface title">머리글</variable>
+
+    <!-- The string used to label an notices in body text. -->
+    <variable id="Notices title"/>
+
+    <!-- The heading to put at the top of a chapter when creating a
+         chapter-level "mini-TOC" -->
+    <variable id="Mini Toc">항목: </variable>
+
+    <variable id="#note-separator">: </variable>
+    <!-- Text to use for 'Note' label generated from <note> element. -->
+    <variable id="Note">참고</variable>
+    <!-- Text to use for 'Notice' label generated from <note> element. -->
+    <variable id="Notice">주의</variable>
+    <!-- Text to use for 'Note' label generated from <note> element 
+         with 'type' attribute set to 'tip'. -->
+    <variable id="Tip">팁</variable>
+
+    <!-- Text to use for 'Note' label generated from <note> element
+         with 'type' attribute set to 'tip'. -->
+    <variable id="Important">중요</variable>
+
+    <!-- Text to use for 'Note' label generated from <note> element 
+         with 'type' attribute set to 'fastpath'. -->
+    <variable id="Fastpath">빠른 경로</variable>
+
+    <!-- Text to use for 'Note' label generated from <note> element 
+         with 'type' attribute set to 'remember'. -->
+    <variable id="Remember">참고</variable>
+
+    <!-- Text to use for 'Note' label generated from <note> element 
+         with 'type' attribute set to 'attention'. -->
+    <variable id="Attention">주의</variable>
+
+    <!-- Text to use for 'Note' label generated from <note> element 
+         with 'type' attribute set to 'caution'. -->
+    <variable id="Caution">주의</variable>
+
+    <!-- Text to use for 'Note' label generated from <note> element 
+         with 'type' attribute set to 'danger'. -->
+    <variable id="Danger">위험</variable>
+    <!-- Text to use for 'Note' label generated from <note> element with 'type' attribute set to 'warning'. -->
+    <variable id="Warning">경고</variable>
+    <!-- Text to use for 'Note' label generated from <note> element
+         with 'type' attribute set to 'restriction'. -->
+    <variable id="Restriction">제한 사항</variable>
+
+    <!-- Text to use for figure titles. Renders as part of <fig>/<title>
+          elements. -->
+    <variable id="Figure">그림<param ref-name="number"/>: <param ref-name="title"/></variable>
+
+    <!-- Text to use for table titles. Renders as part of <table>/<title> 
+         elements. -->
+    <variable id="Table">표<param ref-name="number"/>: <param ref-name="title"/></variable>
+
+    <!-- Text to use for related links label.
+         Renders as part of <related-links> element. -->
+    <variable id="Related Links">관련 링크</variable>
+
+    <!-- Default cross-reference text prefix. Used to generate reference 
+         text in case it's not specified in source. -->
+    <variable id="Cross-Reference">상호 참조:</variable>
+
+    <!-- Default content-reference text prefix. Used to generate reference 
+         text in case target cannot be resolved. -->
+    <variable id="Content-Reference">컨텐츠 참조:</variable>
+
+    <!-- Default title text for referenced section title. Used to generate 
+         reference text in case reference has no explicit content and
+         referenced section has no title. -->
+    <variable id="Untitled section">제목 없는 섹션</variable>
+
+    <!-- Default title text for referenced list item. Used to generate
+         reference text in case reference has no explicit content and 
+         reference target is a list item. -->
+    <variable id="List item">항목 목록</variable>
+
+    <!-- Default title text for referenced footnote. Used to generate 
+         reference text in case reference has no explicit content and 
+         reference target is a footnote. -->
+    <variable id="Foot note">각주</variable>
+
+    <!-- Text to use for a generated label of navigation title. Renders
+         as part of <navtitle> element. -->
+    <variable id="Navigation title">탐색 제목</variable>
+
+    <!-- Text to use for a generated label of search title. Renders 
+         as part of <searchtitle> element. -->
+    <variable id="Search title">검색 제목</variable>
+
+    <!-- Text to use for chapter titles.-->
+    <variable id="Chapter with number"><param ref-name="number"/>장</variable>
+
+    <!-- Text to use for appendix titles.-->
+    <variable id="Appendix with number">부록 <param ref-name="number"/></variable>
+
+    <!-- Text to use for part titles.-->
+    <variable id="Part with number">파트 <param ref-name="number"/></variable>
+
+    <!-- Text to use for a label generated from <required-cleanup> element. -->
+    <variable id="Required-Cleanup">[정리 필요]</variable>
+
+    <!-- Template for generated page number of a reference 
+         in printed manual. -->
+    <variable id="On the page"> <param ref-name="pagenum"/>페이지</variable>
+
+    <!-- Template for generated page number of a reference
+         in printed manual, when referenced element has no title. -->
+    <variable id="Page"> <param ref-name="pagenum"/>페이지</variable>
+
+    <!-- Template for generated page number of a reference
+         in chm/html, when referenced element has no title. -->
+    <variable id="This link">이 링크</variable>
+     
+     <!-- **** Do not translate any of these paths. **** -->
+
+    <!-- Image path to use for a note of "note" type. -->
+    <variable id="note Note Image Path">Configuration/OpenTopic/cfg/common/artwork/hand.gif</variable>
+    <!-- Image path to use for a note of "notice" type. -->
+    <variable id="notice Note Image Path">Configuration/OpenTopic/cfg/common/artwork/hand.gif</variable>
+    <!-- Image path to use for a note of "attention" type. -->
+    <variable id="attention Note Image Path">Configuration/OpenTopic/cfg/common/artwork/warning.gif</variable>
+
+    <!-- Image path to use for a note of "caution" type. -->
+    <variable id="caution Note Image Path">Configuration/OpenTopic/cfg/common/artwork/warning.gif</variable>
+
+    <!-- Image path to use for a note of "danger" type. -->
+    <variable id="danger Note Image Path">Configuration/OpenTopic/cfg/common/artwork/warning.gif</variable>
+    <!-- Image path to use for a note of "warning" type. -->
+    <variable id="warning Note Image Path">Configuration/OpenTopic/cfg/common/artwork/warning.gif</variable>
+    <!-- Image path to use for a note of "fastpath" type. -->
+    <variable id="fastpath Note Image Path">Configuration/OpenTopic/cfg/common/artwork/hand.gif</variable>
+
+    <!-- Image path to use for a note of "important" type. -->
+    <variable id="important Note Image Path">Configuration/OpenTopic/cfg/common/artwork/hand.gif</variable>
+
+    <!-- Image path to use for a note of "remember" type. -->
+    <variable id="remember Note Image Path">Configuration/OpenTopic/cfg/common/artwork/hand.gif</variable>
+
+    <!-- Image path to use for a note of "restriction" type. -->
+    <variable id="restriction Note Image Path">Configuration/OpenTopic/cfg/common/artwork/hand.gif</variable>
+
+    <!-- Image path to use for a note of "tip" type. -->
+    <variable id="tip Note Image Path">Configuration/OpenTopic/cfg/common/artwork/hand.gif</variable>
+
+    <!-- Image path to use for a note of "other" type. -->
+    <variable id="other Note Image Path">Configuration/OpenTopic/cfg/common/artwork/hand.gif</variable>
+
+     <!-- **** Translate the following unless there are specific instructions not to translate. **** -->
+     
+    <!--
+        String used for links in end of document in XHTML
+    -->
+
+    <!-- The title of the links to parent -->
+    <variable id="Parent topic">상위 항목</variable>
+
+    <!-- The title of the links to next topics -->
+    <variable id="Next topic">다음 항목</variable>
+
+    <!-- The title of the links to previous topics -->
+    <variable id="Previous topic">이전 항목</variable>
+
+    <!-- The title of the links to child topics -->
+    <variable id="Child topics">하위 항목</variable>
+
+    <!-- The title of the links to Related concepts -->
+    <variable id="Related concepts">관련 개념</variable>
+
+    <!-- The title of the links to Related tasks -->
+    <variable id="Related tasks">관련 작업</variable>
+
+    <!-- The title of the links to Related references -->
+    <variable id="Related references">관련 자료</variable>
+
+    <!-- The title of the links to Related information -->
+    <variable id="Related information">관련 정보</variable>
+
+    <!--
+       Strings used in the online-help publishing.
+    -->
+
+    <!-- The title of the "contents" button in online-help output -->
+    <variable id="Contents button title">내용물</variable>
+
+    <!-- The title of the "index" button in online-help output -->
+    <variable id="Index button title">색인</variable>
+
+    <!-- The separator of multiple index entries in online-help output -->
+    <variable id="Index multiple entries separator">, </variable>
+
+    <!-- The title of the "search" button in online-help output -->
+    <variable id="Search button title">검색</variable>
+
+    <!-- The title of the "back" button in online-help output -->
+    <variable id="Back button title">뒤로</variable>
+
+    <!-- The title of the "forward" button in online-help output -->
+    <variable id="Forward button title">앞으로</variable>
+
+    <!-- The title of the "main page" button in online-help output -->
+    <variable id="Main page button title">홈</variable>
+
+    <!-- The title of the "previous page" button in online-help output -->
+    <variable id="Previous page button title">이전 항목</variable>
+
+    <!-- The title of the "next page" button in online-help output -->
+    <variable id="Next page button title">다음 항목</variable>
+
+    <!-- The "online help" document title prefix in online-help output -->
+    <variable id="Online help prefix">온라인 도움말</variable>
+
+    <!-- The search by index field title in online-help output -->
+    <variable id="Search index field title">키워드 검색:</variable>
+
+    <!-- The search by index button title in online-help output -->
+    <variable id="Search index button title">보기</variable>
+
+    <!-- The search by text field title in online-help output -->
+    <variable id="Search text field title">도움말 검색:</variable>
+
+    <!-- The search by text button title in online-help output -->
+    <variable id="Search text button title">검색</variable>
+
+	<variable id="Online Help Search Method Field">검색 방법</variable>
+	<variable id="Online Help Search Method Or">또는</variable>
+	<variable id="Online Help Search Method And">및</variable>
+	<variable id="Search Highlight Switch">검색 결과에서 텍스트 강조 표시</variable>
+	<variable id="Search index next button title">다음 항목 표시</variable>
+	<variable id="Search Whole Words Switch">단어 단위로</variable>
+	<variable id="Search Case Sensitive Switch">대/소문자 구분</variable>
+	<variable id="Search Stopped Message">일치하는 항목 50개를 검색한 후 중지되었습니다.</variable>
+	<!--This one is a java script expression. So if the order of message should be another don't forget to add '+'
+	and quotes to the string expressions.-->
+	<variable id="Search Excluded Stop Words Message">검색에서 다음 단어가 제외되었습니다. "+<param ref-name="stop-words-list"/></variable>
+	<variable id="Search Search in Progress Message">검색 중...</variable>
+	<variable id="Search Search Give No Results Message">일치하는 항목이 없습니다.</variable>
+
+    <!--Label for a step with importance="optional"-->
+    <variable id="Optional Step">옵션:</variable>
+
+    <!--Labels for task sections-->
+    <variable id="Task Prereq">시작하기 전에</variable>
+    <variable id="Task Context">본 작업 정보</variable>
+    <variable id="Task Steps">절차</variable>
+  <variable id="#steps-unordered-label"><variable id="Task Steps"/></variable>
+    <variable id="Task Result">결과</variable>
+    <variable id="Task Example">예</variable>
+    <variable id="Task Postreq">다음 작업</variable>
+    
+    <!--Glossary Variables-->
+    <!-- The footer that appears on the odd-numbered glossary pages. -->
+    <variable id="Glossary odd footer"/>
+
+    <!-- The footer that appears on the even-numbered glossary pages. -->
+    <variable id="Glossary even footer"/>
+
+    <!-- The header that appears on the odd-numbered glossary pages. -->
+    <variable id="Glossary odd header"><param ref-name="prodname"/>&#xA0;|&#xA0;<param ref-name="heading"/>&#xA0;|&#xA0;<param ref-name="pagenum"/></variable>
+
+    <!-- The header that appears on the even-numbered glossary pages. -->
+    <variable id="Glossary even header"><param ref-name="pagenum"/>&#xA0;|&#xA0;<param ref-name="heading"/>&#xA0;|&#xA0;<param ref-name="prodname"/></variable>
+     
+     <!-- The heading string to put at the top of the Glossary -->
+     <variable id="Glossary">용어</variable>
+     
+     <!-- The heading string to put at the top of the List of Tables -->
+     <variable id="List of Tables">표 목록</variable>
+     
+     <!-- The heading string to put at the top of the List of Figures -->
+     <variable id="List of Figures">그림 목록</variable>
+  <variable id="Option">옵션</variable>
+  <variable id="Description">설명</variable>
+  <variable id="#menucascade-separator">&#xA0;&#x3E; </variable>
+  <variable id="#quote-start">“</variable>
+  <variable id="#quote-end">”</variable>     
+     
+     <!-- bullets for unordered lists -->
+     <variable id="Open list bullet">&#x25e6;</variable>
+     <variable id="Unordered list dash">&#x2013;</variable>
+     <variable id="Small list bullet">&#x25b8;</variable> 
+     
+</vars>

@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Strings used for WD output. Comments with **** are specific instructions.
+-->
+<vars xmlns="http://www.idiominc.com/opentopic/vars">
+
+    <!-- 
+     
+      This file controls strings that appear in the published output.  
+      There is one version of this file per language.  To add support 
+      for a new language, simply create a copy of this file and name 
+      it using the <locale ISO code>.xml format.
+      
+    -->
+
+    <!-- 
+       Strings used in the headers and footers of pages.
+    -->
+
+    <!-- Product name to be placed inside headers etc. -->
+    <variable id="Product Name"/>
+
+     <!-- 
+    **** No need to translate these footers and headers as they are not used for WD output. **** -->
+     
+    <!-- The footer that appears on odd-numbered pages.  -->
+    <variable id="Body odd footer">- Sivu <param ref-name="pagenum"/> / <param ref-name="lastpage"/></variable>
+
+    <!-- The footer that appears on even-numbered pages. -->
+     <variable id="Body even footer">- Sivu <param ref-name="pagenum"/> / <param ref-name="lastpage"/></variable>
+
+    <!-- The footer that appears on the first page of a chapter. -->
+     <variable id="Body first footer">- Sivu <param ref-name="pagenum"/> / <param ref-name="lastpage"/></variable>
+
+    <!-- The header that appears on the first page of a chapter. -->
+    <variable id="Body first header"/>
+
+    <!-- The header that appears on odd-numbered pages. -->
+    <variable id="Body odd header"><!--<param ref-name="prodname"/>&#xA0;|&#xA0;<param ref-name="heading"/>&#xA0;|&#xA0;<param ref-name="pagenum"/>--></variable>
+
+    <!-- The header that appears on even-numbered pages. -->
+    <variable id="Body even header"><!--<param ref-name="pagenum"/>&#xA0;|&#xA0;<param ref-name="heading"/>&#xA0;|&#xA0;<param ref-name="prodname"/>--></variable>
+
+    <!-- The footer that appears on Preface odd-numbered pages. -->
+    <variable id="Preface odd footer"/>
+
+    <!-- The footer that appears on Preface even-numbered pages. -->
+    <variable id="Preface even footer"/>
+
+    <!-- The footer that appears on the first page of a Preface -->
+    <variable id="Preface first footer"/>
+
+    <!-- The header that appears on Preface odd-numbered pages. -->
+    <variable id="Preface odd header"><param ref-name="prodname"/>&#xA0;|&#xA0;Johdanto&#xA0;|&#xA0;<param ref-name="pagenum"/></variable>
+
+    <!-- The header that appears on Preface even-numbered pages. -->
+    <variable id="Preface even header"><param ref-name="pagenum"/>&#xA0;|&#xA0;Johdanto&#xA0;|&#xA0;<param ref-name="prodname"/></variable>
+
+    <!-- The header that appears on Preface first page. -->
+    <variable id="Preface first header"/>
+
+    <!-- The footer that appears on the odd-numbered table of contents
+         pages. --> 
+    <variable id="Toc odd footer"/>
+
+    <!-- The footer that appears on the even-numbered table of contents
+         pages. --> 
+    <variable id="Toc even footer"/>
+
+    <!-- The header that appears on the odd-numbered table of contents
+         pages. --> 
+    <variable id="Toc odd header"><param ref-name="prodname"/>&#xA0;|&#xA0;<param ref-name="heading"/>&#xA0;|&#xA0;<param ref-name="pagenum"/></variable>
+
+    <!-- The header that appears on the odd-numbered table of contents
+         pages. --> 
+    <variable id="Toc even header"><param ref-name="pagenum"/>&#xA0;|&#xA0;<param ref-name="heading"/>&#xA0;|&#xA0;<param ref-name="prodname"/></variable>
+
+    <!-- The footer that appears on the odd-numbered index pages. -->
+    <variable id="Index odd footer"/>
+
+    <!-- The footer that appears on the even-numbered index pages. -->
+    <variable id="Index even footer"/>
+
+    <!-- The header that appears on the odd-numbered index pages. -->
+    <variable id="Index odd header"><param ref-name="prodname"/>&#xA0;|&#xA0;<param ref-name="heading"/>&#xA0;|&#xA0;<param ref-name="pagenum"/></variable>
+
+    <!-- The header that appears on the even-numbered index pages. -->
+    <variable id="Index even header"><param ref-name="pagenum"/>&#xA0;|&#xA0;<param ref-name="heading"/>&#xA0;|&#xA0;<param ref-name="prodname"/></variable>
+
+    <!-- The formatting used to display ordered lists (e.g., "1., 2." or 
+         "1), 2)" -->
+    <variable id="Ordered List Number"><param ref-name="number"/>. </variable>
+
+    <!-- The unordered list bullet   -->
+     <variable id="Unordered List bullet">&#x25aa;</variable>
+     
+     <!-- **** Next 5 strings need translation. ***** -->
+
+    <!-- The heading string to put at the top of the Table of Contents -->
+    <variable id="Table of Contents">Sisällysluettelo</variable>
+
+    <!-- The heading string to put at the top of the Index -->
+    <variable id="Index">Hakemisto</variable>
+
+    <variable id="Index Continued String">jatkuu</variable>
+
+    <!--string before see element-->
+    <variable id="Index See String">, Katso </variable>
+
+    <!--string before see also element-->
+    <variable id="Index See Also String">Katso myös </variable>
+     
+     <!-- **** Do not translate next string. ***** -->
+     
+    <!-- The string used to label a chapter within the table of contents. -->
+     <variable id="Table of Contents Chapter"><!--Chapter&#xA0;<param ref-name="number"/>&#xA0;&#xA0;--></variable>
+     
+     <!-- **** Translate any variable that has content unless otherwise directed
+          from this point on. ***** -->
+     
+    <!-- The string used to label an appendix within the table of contents. -->
+     <variable id="Table of Contents Appendix">Liite&#xA0;<param ref-name="number"/>&#xA0;&#xA0;</variable>
+
+    <!-- The string used to label an part within the table of contents. -->
+     <variable id="Table of Contents Part">Osa&#xA0;<param ref-name="number"/>&#xA0;&#xA0;</variable>
+
+    <!-- The string used to label an preface within the table of contents. -->
+     <variable id="Table of Contents Preface">Esipuhe&#xA0;&#xA0;</variable>
+
+    <!-- The string used to label an preface within the table of contents. -->
+    <variable id="Table of Contents Notices"/>
+
+    <!-- The string used to label an preface in body text. -->
+    <variable id="Preface title">Esipuhe</variable>
+
+    <!-- The string used to label an notices in body text. -->
+    <variable id="Notices title"/>
+
+    <!-- The heading to put at the top of a chapter when creating a
+         chapter-level "mini-TOC" -->
+    <variable id="Mini Toc">Aiheet: </variable>
+
+    <variable id="#note-separator">: </variable>
+    <!-- Text to use for 'Note' label generated from <note> element. -->
+    <variable id="Note">Huom.</variable>
+    <!-- Text to use for 'Notice' label generated from <note> element. -->
+    <variable id="Notice">Huomaa</variable>
+    <!-- Text to use for 'Note' label generated from <note> element 
+         with 'type' attribute set to 'tip'. -->
+    <variable id="Tip">Vinkki</variable>
+
+    <!-- Text to use for 'Note' label generated from <note> element
+         with 'type' attribute set to 'tip'. -->
+    <variable id="Important">Tärkeä</variable>
+
+    <!-- Text to use for 'Note' label generated from <note> element 
+         with 'type' attribute set to 'fastpath'. -->
+    <variable id="Fastpath">Oikopolku</variable>
+
+    <!-- Text to use for 'Note' label generated from <note> element 
+         with 'type' attribute set to 'remember'. -->
+    <variable id="Remember">Muista</variable>
+
+    <!-- Text to use for 'Note' label generated from <note> element 
+         with 'type' attribute set to 'attention'. -->
+    <variable id="Attention">Huomio</variable>
+
+    <!-- Text to use for 'Note' label generated from <note> element 
+         with 'type' attribute set to 'caution'. -->
+    <variable id="Caution">Varoitus</variable>
+
+    <!-- Text to use for 'Note' label generated from <note> element 
+         with 'type' attribute set to 'danger'. -->
+    <variable id="Danger">Vaara</variable>
+    <!-- Text to use for 'Note' label generated from <note> element with 'type' attribute set to 'warning'. -->
+    <variable id="Warning">Varoitus</variable>
+    <!-- Text to use for 'Note' label generated from <note> element
+         with 'type' attribute set to 'restriction'. -->
+    <variable id="Restriction">Rajoitus</variable>
+
+    <!-- Text to use for figure titles. Renders as part of <fig>/<title>
+          elements. -->
+    <variable id="Figure">Kuva <param ref-name="number"/>: <param ref-name="title"/></variable>
+
+    <!-- Text to use for table titles. Renders as part of <table>/<title> 
+         elements. -->
+    <variable id="Table">Taulukko <param ref-name="number"/>: <param ref-name="title"/></variable>
+
+    <!-- Text to use for related links label.
+         Renders as part of <related-links> element. -->
+    <variable id="Related Links">Aiheeseen liittyvät linkit</variable>
+
+    <!-- Default cross-reference text prefix. Used to generate reference 
+         text in case it's not specified in source. -->
+    <variable id="Cross-Reference">Ristiviittaus:</variable>
+
+    <!-- Default content-reference text prefix. Used to generate reference 
+         text in case target cannot be resolved. -->
+    <variable id="Content-Reference">Sisältöviittaus:</variable>
+
+    <!-- Default title text for referenced section title. Used to generate 
+         reference text in case reference has no explicit content and
+         referenced section has no title. -->
+    <variable id="Untitled section">Otsikoimaton osa.</variable>
+
+    <!-- Default title text for referenced list item. Used to generate
+         reference text in case reference has no explicit content and 
+         reference target is a list item. -->
+    <variable id="List item">Luettelokohde.</variable>
+
+    <!-- Default title text for referenced footnote. Used to generate 
+         reference text in case reference has no explicit content and 
+         reference target is a footnote. -->
+    <variable id="Foot note">Alaviite.</variable>
+
+    <!-- Text to use for a generated label of navigation title. Renders
+         as part of <navtitle> element. -->
+    <variable id="Navigation title">Navigointiotsikko</variable>
+
+    <!-- Text to use for a generated label of search title. Renders 
+         as part of <searchtitle> element. -->
+    <variable id="Search title">Hakuotsikko</variable>
+
+    <!-- Text to use for chapter titles.-->
+    <variable id="Chapter with number">Kappale <param ref-name="number"/></variable>
+
+    <!-- Text to use for appendix titles.-->
+    <variable id="Appendix with number">Liite <param ref-name="number"/></variable>
+
+    <!-- Text to use for part titles.-->
+    <variable id="Part with number">Osa <param ref-name="number"/></variable>
+
+    <!-- Text to use for a label generated from <required-cleanup> element. -->
+    <variable id="Required-Cleanup">[Vaadittu-puhdistus]</variable>
+
+    <!-- Template for generated page number of a reference 
+         in printed manual. -->
+    <variable id="On the page"> sivulla <param ref-name="pagenum"/></variable>
+
+    <!-- Template for generated page number of a reference
+         in printed manual, when referenced element has no title. -->
+    <variable id="Page"> sivu <param ref-name="pagenum"/></variable>
+
+    <!-- Template for generated page number of a reference
+         in chm/html, when referenced element has no title. -->
+    <variable id="This link">tämä linkki</variable>
+     
+     <!-- **** Do not translate any of these paths. **** -->
+
+    <!-- Image path to use for a note of "note" type. -->
+    <variable id="note Note Image Path">Configuration/OpenTopic/cfg/common/artwork/hand.gif</variable>
+    <!-- Image path to use for a note of "notice" type. -->
+    <variable id="notice Note Image Path">Configuration/OpenTopic/cfg/common/artwork/hand.gif</variable>
+    <!-- Image path to use for a note of "attention" type. -->
+    <variable id="attention Note Image Path">Configuration/OpenTopic/cfg/common/artwork/warning.gif</variable>
+
+    <!-- Image path to use for a note of "caution" type. -->
+    <variable id="caution Note Image Path">Configuration/OpenTopic/cfg/common/artwork/warning.gif</variable>
+
+    <!-- Image path to use for a note of "danger" type. -->
+    <variable id="danger Note Image Path">Configuration/OpenTopic/cfg/common/artwork/warning.gif</variable>
+    <!-- Image path to use for a note of "warning" type. -->
+    <variable id="warning Note Image Path">Configuration/OpenTopic/cfg/common/artwork/warning.gif</variable>
+    <!-- Image path to use for a note of "fastpath" type. -->
+    <variable id="fastpath Note Image Path">Configuration/OpenTopic/cfg/common/artwork/hand.gif</variable>
+
+    <!-- Image path to use for a note of "important" type. -->
+    <variable id="important Note Image Path">Configuration/OpenTopic/cfg/common/artwork/hand.gif</variable>
+
+    <!-- Image path to use for a note of "remember" type. -->
+    <variable id="remember Note Image Path">Configuration/OpenTopic/cfg/common/artwork/hand.gif</variable>
+
+    <!-- Image path to use for a note of "restriction" type. -->
+    <variable id="restriction Note Image Path">Configuration/OpenTopic/cfg/common/artwork/hand.gif</variable>
+
+    <!-- Image path to use for a note of "tip" type. -->
+    <variable id="tip Note Image Path">Configuration/OpenTopic/cfg/common/artwork/hand.gif</variable>
+
+    <!-- Image path to use for a note of "other" type. -->
+    <variable id="other Note Image Path">Configuration/OpenTopic/cfg/common/artwork/hand.gif</variable>
+
+     <!-- **** Translate the following unless there are specific instructions not to translate. **** -->
+     
+    <!--
+        String used for links in end of document in XHTML
+    -->
+
+    <!-- The title of the links to parent -->
+    <variable id="Parent topic">Pääaihe</variable>
+
+    <!-- The title of the links to next topics -->
+    <variable id="Next topic">Seuraava aihe</variable>
+
+    <!-- The title of the links to previous topics -->
+    <variable id="Previous topic">Edellinen aihe</variable>
+
+    <!-- The title of the links to child topics -->
+    <variable id="Child topics">Aliaiheet</variable>
+
+    <!-- The title of the links to Related concepts -->
+    <variable id="Related concepts">Aiheeseen liittyvät käsitteet</variable>
+
+    <!-- The title of the links to Related tasks -->
+    <variable id="Related tasks">Aiheeseen liittyvät tehtävät</variable>
+
+    <!-- The title of the links to Related references -->
+    <variable id="Related references">Aiheeseen liittyvät viittaukset</variable>
+
+    <!-- The title of the links to Related information -->
+    <variable id="Related information">Aiheeseen liittyvät tiedot</variable>
+
+    <!--
+       Strings used in the online-help publishing.
+    -->
+
+    <!-- The title of the "contents" button in online-help output -->
+    <variable id="Contents button title">Sisältö</variable>
+
+    <!-- The title of the "index" button in online-help output -->
+    <variable id="Index button title">Hakemisto</variable>
+
+    <!-- The separator of multiple index entries in online-help output -->
+    <variable id="Index multiple entries separator">, </variable>
+
+    <!-- The title of the "search" button in online-help output -->
+    <variable id="Search button title">Haku</variable>
+
+    <!-- The title of the "back" button in online-help output -->
+    <variable id="Back button title">Takaisin</variable>
+
+    <!-- The title of the "forward" button in online-help output -->
+    <variable id="Forward button title">Eteenpäin</variable>
+
+    <!-- The title of the "main page" button in online-help output -->
+    <variable id="Main page button title">Aloitus</variable>
+
+    <!-- The title of the "previous page" button in online-help output -->
+    <variable id="Previous page button title">Edellinen aihe</variable>
+
+    <!-- The title of the "next page" button in online-help output -->
+    <variable id="Next page button title">Seuraava aihe</variable>
+
+    <!-- The "online help" document title prefix in online-help output -->
+    <variable id="Online help prefix">Online-ohjeet</variable>
+
+    <!-- The search by index field title in online-help output -->
+    <variable id="Search index field title">Etsi avainsanaa:</variable>
+
+    <!-- The search by index button title in online-help output -->
+    <variable id="Search index button title">Katso</variable>
+
+    <!-- The search by text field title in online-help output -->
+    <variable id="Search text field title">Etsi ohjetta aiheesta:</variable>
+
+    <!-- The search by text button title in online-help output -->
+    <variable id="Search text button title">Haku</variable>
+
+	<variable id="Online Help Search Method Field">Hakutapa</variable>
+	<variable id="Online Help Search Method Or">tai</variable>
+	<variable id="Online Help Search Method And">ja</variable>
+	<variable id="Search Highlight Switch">Korosta teksti hakutuloksissa</variable>
+	<variable id="Search index next button title">Näytä seuraava</variable>
+	<variable id="Search Whole Words Switch">Etsi vain kokonaisia sanoja</variable>
+	<variable id="Search Case Sensitive Switch">Huomioi kirjainkoko</variable>
+	<variable id="Search Stopped Message">Haku pysäytettiin 50 tulokseen.</variable>
+	<!--This one is a java script expression. So if the order of message should be another don't forget to add '+'
+	and quotes to the string expressions.-->
+	<variable id="Search Excluded Stop Words Message">”Seuraavat saat jätettiin haun ulkopuolelle: "+<param ref-name="stop-words-list"/></variable>
+	<variable id="Search Search in Progress Message">Haku käynnissä...</variable>
+	<variable id="Search Search Give No Results Message">Tuloksia ei löytynyt.</variable>
+
+    <!--Label for a step with importance="optional"-->
+    <variable id="Optional Step">Vaihtoehtoinen:</variable>
+
+    <!--Labels for task sections-->
+    <variable id="Task Prereq">Ennen kuin aloitat</variable>
+    <variable id="Task Context">Tietoa tästä tehtävästä</variable>
+    <variable id="Task Steps">Toimenpide</variable>
+  <variable id="#steps-unordered-label"><variable id="Task Steps"/></variable>
+    <variable id="Task Result">Tulokset</variable>
+    <variable id="Task Example">Esimerkki</variable>
+    <variable id="Task Postreq">Mitä seuraavaksi</variable>
+    
+    <!--Glossary Variables-->
+    <!-- The footer that appears on the odd-numbered glossary pages. -->
+    <variable id="Glossary odd footer"/>
+
+    <!-- The footer that appears on the even-numbered glossary pages. -->
+    <variable id="Glossary even footer"/>
+
+    <!-- The header that appears on the odd-numbered glossary pages. -->
+    <variable id="Glossary odd header"><param ref-name="prodname"/>&#xA0;|&#xA0;<param ref-name="heading"/>&#xA0;|&#xA0;<param ref-name="pagenum"/></variable>
+
+    <!-- The header that appears on the even-numbered glossary pages. -->
+    <variable id="Glossary even header"><param ref-name="pagenum"/>&#xA0;|&#xA0;<param ref-name="heading"/>&#xA0;|&#xA0;<param ref-name="prodname"/></variable>
+     
+     <!-- The heading string to put at the top of the Glossary -->
+     <variable id="Glossary">Sanasto</variable>
+     
+     <!-- The heading string to put at the top of the List of Tables -->
+     <variable id="List of Tables">Taulukkoluettelo</variable>
+     
+     <!-- The heading string to put at the top of the List of Figures -->
+     <variable id="List of Figures">Kuvaluettelo</variable>
+  <variable id="Option">Vaihtoehto</variable>
+  <variable id="Description">Kuvaus</variable>
+  <variable id="#menucascade-separator">&#xA0;&#x3E; </variable>
+  <variable id="#quote-start">“</variable>
+  <variable id="#quote-end">”</variable>     
+     
+     <!-- bullets for unordered lists -->
+     <variable id="Open list bullet">&#x25e6;</variable>
+     <variable id="Unordered list dash">&#x2013;</variable>
+     <variable id="Small list bullet">&#x25b8;</variable> 
+     
+</vars>

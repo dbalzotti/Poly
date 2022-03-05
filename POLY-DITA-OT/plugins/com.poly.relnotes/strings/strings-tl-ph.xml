@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.-->
+<!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. -->
+
+<strings xml:lang="en-us">        <!-- US English -->
+
+<!-- various labels (not author controlled) -->
+<str name="Figure">Larawan</str>
+<str name="Table">Talahanayan</str>
+<str name="Next topic">Susunod na paksa</str>
+<str name="Previous topic">Naunang paksa</str>
+<str name="Parent topic">Pangunahing paksa</str>
+<str name="Required cleanup">Kinakailangang paglilinis</str>
+<str name="Draft comment">Draft na komento</str>
+<str name="Option">Opsiyon</str>
+<str name="Description">Paglalarawan / Paliwanag</str>
+<str name="Optional">Opsiyonal</str>
+<str name="Required">Kinakailangan</str>
+<str name="Skip visual syntax diagram">Laktawan ang visual syntax diagram</str>
+<str name="Read syntax diagram">Basahin ang syntax diagram</str>
+<str name="Start of change">Simula ng pagbabago</str>
+<str name="End of change">Dulo ng pagbabago</str>
+<str name="Index">Indeks</str>
+<str name="Special characters">Mga espesyal na character</str>
+<str name="Numerics">Numerics</str>
+<str name="End notes">Mga pangwakas na tala</str>
+<str name="Artwork">Artwork</str>
+<str name="Syntax">Syntax</str>
+<str name="Type">Uri</str>
+<str name="Value">Value / Halaga</str>
+<!-- Text that goes before a link to a topic -->
+<str name="intro-to-topic-link"></str>
+
+<!-- peril notice labels -->
+<str name="Note">Tandaan / Tala</str>
+<str name="Notes">Mga Tala</str>
+<str name="Tip">Tip</str>
+<str name="Fastpath">Fastpath</str>
+<str name="Important">Mahalaga</str>
+<str name="Attention">Bigyang-pansin</str>
+<str name="Caution">MAG-INGAT</str>
+<str name="Danger">DELIKADO / MAPANGANIB</str>
+<str name="Remember">Tandaan:</str>
+<str name="Restriction">Paghihigpit</str>
+<str name="Warning">Babala</str>
+
+<!-- default title text for section level generated sections -->
+<str name="Contents">Mga Nilalaman</str>
+<str name="Related concepts">Mga kaugnay na konsepto</str>
+<str name="Related tasks">Mga kaugnay na gawain</str>
+<str name="Related reference">Kaugnay na sanggunian</str>
+<str name="Related information">Mga Kaugnay na Impormasyon</str>
+
+<str name="Prerequisite">Prerequisite</str>
+<str name="Prerequisites">Mga Prerequisite</str>
+<str name="or">o</str>
+<str name="figure-number-separator"> </str>
+
+<!--Task section labels -->
+<str name="task_context">Tungkol sa gawaing ito</str>
+<str name="task_example">Halimbawa</str>
+<str name="task_postreq">Ano ang susunod na gagawin</str>
+<str name="task_prereq">Bago ka magsimula / Bago mo simulan</str>
+<str name="task_procedure">Pamamaraan</str>
+<str name="task_results">Mga resulta</str>
+
+<str name="Copyright">Karapatang-ari</str>
+
+<!-- Symbols -->
+<str name="OpenQuote">&quot;</str>
+<str name="CloseQuote">&quot;</str>
+<str name="ColonSymbol">:</str>
+ 
+<!-- For odt transform -->
+<str name="On the page"> sa pahina </str>
+<str name="Related Links">Mga Kaugnay na Link</str>
+<str name="List item">Item sa listahan.</str>
+<str name="Foot note">Footnote.</str>
+<str name="Page"> pahina </str>
+<str name="Unordered List bullet">•</str>
+
+</strings>

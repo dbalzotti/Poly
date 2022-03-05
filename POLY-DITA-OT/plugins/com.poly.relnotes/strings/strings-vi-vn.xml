@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.-->
+<!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. -->
+
+<strings xml:lang="en-us">        <!-- US English -->
+
+<!-- various labels (not author controlled) -->
+<str name="Figure">Hình</str>
+<str name="Table">Bảng</str>
+<str name="Next topic">Chủ đề tiếp theo</str>
+<str name="Previous topic">Chủ đề trước</str>
+<str name="Parent topic">Chủ đề chính</str>
+<str name="Required cleanup">Yêu cầu làm sạch</str>
+<str name="Draft comment">Nhận xét sơ bộ</str>
+<str name="Option">Tùy chọn</str>
+<str name="Description">Mô tả</str>
+<str name="Optional">Tùy chọn</str>
+<str name="Required">Được yêu cầu</str>
+<str name="Skip visual syntax diagram">Bỏ qua sơ đồ cú pháp trực quan</str>
+<str name="Read syntax diagram">Đọc sơ đồ cú pháp</str>
+<str name="Start of change">Bắt đầu thay đổi</str>
+<str name="End of change">Kết thúc thay đổi</str>
+<str name="Index">Chỉ mục</str>
+<str name="Special characters">Ký tự đặc biệt</str>
+<str name="Numerics">Chữ số</str>
+<str name="End notes">Ghi chú cuối</str>
+<str name="Artwork">Đồ họa</str>
+<str name="Syntax">Cú pháp</str>
+<str name="Type">Loại</str>
+<str name="Value">Giá trị</str>
+<!-- Text that goes before a link to a topic -->
+<str name="intro-to-topic-link"></str>
+
+<!-- peril notice labels -->
+<str name="Note">Ghi chú</str>
+<str name="Notes">Các ghi chú</str>
+<str name="Tip">Mẹo</str>
+<str name="Fastpath">Đường dẫn nhanh</str>
+<str name="Important">Quan trọng</str>
+<str name="Attention">Chú ý</str>
+<str name="Caution">THẬN TRỌNG</str>
+<str name="Danger">NGUY HIỂM</str>
+<str name="Remember">Ghi nhớ</str>
+<str name="Restriction">Hạn chế</str>
+<str name="Warning">Cảnh báo</str>
+
+<!-- default title text for section level generated sections -->
+<str name="Contents">Nội dung</str>
+<str name="Related concepts">Khái niệm liên quan</str>
+<str name="Related tasks">Nhiệm vụ liên quan</str>
+<str name="Related reference">Tham chiếu liên quan</str>
+<str name="Related information">Thông tin liên quan</str>
+
+<str name="Prerequisite">Điều kiện tiên quyết</str>
+<str name="Prerequisites">Các điều kiện tiên quyết</str>
+<str name="or">hoặc</str>
+<str name="figure-number-separator"> </str>
+
+<!--Task section labels -->
+<str name="task_context">Giới thiệu về nhiệm vụ này</str>
+<str name="task_example">Ví dụ</str>
+<str name="task_postreq">Những việc cần làm tiếp theo</str>
+<str name="task_prereq">Trước khi bắt đầu</str>
+<str name="task_procedure">Quy trình</str>
+<str name="task_results">Kết quả</str>
+
+<str name="Copyright">Bản quyền</str>
+
+<!-- Symbols -->
+<str name="OpenQuote">&quot;</str>
+<str name="CloseQuote">&quot;</str>
+<str name="ColonSymbol">:</str>
+ 
+<!-- For odt transform -->
+<str name="On the page"> ở trang </str>
+<str name="Related Links">Liên kết Liên quan</str>
+<str name="List item">Mục danh sách.</str>
+<str name="Foot note">Ghi chú chân trang.</str>
+<str name="Page"> trang </str>
+<str name="Unordered List bullet">•</str>
+
+</strings>

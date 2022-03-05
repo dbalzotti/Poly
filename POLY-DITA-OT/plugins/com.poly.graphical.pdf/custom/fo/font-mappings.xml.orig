@@ -1,0 +1,290 @@
+<?xml version="1.0"?>
+
+<font-mappings>
+    <font-table>
+        
+
+<!-- Backwards compatibility aliases -->
+    <aliases>
+      <alias name="serif">Serif</alias>
+    </aliases>
+    <aliases>
+      <alias name="sans-serif">Sans</alias>
+    </aliases>
+    <aliases>
+      <alias name="monospace">Monospaced</alias>
+    </aliases>
+    <aliases>
+      <alias name="Helvetica">Normal</alias>
+    </aliases>
+    <aliases>
+      <alias name="Courier">Monospaced</alias>
+    </aliases>
+
+<logical-font name="GestaMedium">
+            <physical-font char-set="default">
+                <font-face>Gesta Md</font-face>
+            </physical-font>
+            <physical-font char-set="Arabic">
+                <font-face>Arial</font-face>
+            </physical-font>
+            <physical-font char-set="Russian">
+                <font-face>Calibri</font-face>
+            </physical-font>
+            <physical-font char-set="Greek">
+                <font-face>Myriad Pro</font-face>
+            </physical-font>
+            <physical-font char-set="Symbols">
+                <font-face>ZapfDingbats</font-face>
+            </physical-font>
+            <physical-font char-set="SubmenuSymbol">
+                <font-face>ZapfDingbats</font-face>
+            </physical-font>
+            <physical-font char-set="SymbolsSuperscript">
+                <font-face>Arial</font-face>
+                <baseline-shift>20%</baseline-shift>
+                <override-size>smaller</override-size>
+            </physical-font>
+            <physical-font char-set="Simplified Chinese">
+                <font-face>Arial Unicode MS</font-face>
+            </physical-font>
+            <physical-font char-set="Traditional Chinese">
+                <font-face>Arial Unicode MS</font-face>
+            </physical-font>
+        </logical-font>
+        
+        <logical-font name="GestaLight">
+            <physical-font char-set="default">
+                <font-face>Gesta Lt</font-face>
+            </physical-font>
+            <physical-font char-set="Arabic">
+                <font-face>Arial</font-face>
+            </physical-font>
+            <physical-font char-set="Russian">
+                <font-face>Calibri Light</font-face>
+            </physical-font>
+            <physical-font char-set="Greek">
+                <font-face>Myriad Pro Light</font-face>
+            </physical-font>
+            <physical-font char-set="Symbols">
+                <font-face>ZapfDingbats</font-face>
+            </physical-font>
+            <physical-font char-set="SubmenuSymbol">
+                <font-face>ZapfDingbats</font-face>
+            </physical-font>
+            <physical-font char-set="SymbolsSuperscript">
+                <font-face>Arial</font-face>
+                <baseline-shift>20%</baseline-shift>
+                <override-size>smaller</override-size>
+            </physical-font>
+            <physical-font char-set="Simplified Chinese">
+                <font-face>Arial Unicode MS</font-face>
+            </physical-font>
+            <physical-font char-set="Traditional Chinese">
+                <font-face>Arial Unicode MS</font-face>
+            </physical-font>
+        </logical-font>
+        
+        <logical-font name="GestaBold">
+            <physical-font char-set="default">
+                <font-face>Gesta Bold</font-face>
+            </physical-font>
+            <physical-font char-set="Arabic">
+                <font-face>Arial</font-face>
+            </physical-font>
+            <physical-font char-set="Russian">
+                <font-face>Calibri</font-face>
+            </physical-font>
+            <physical-font char-set="Greek">
+                <font-face>Myriad Pro</font-face>
+            </physical-font>
+            <physical-font char-set="Symbols">
+                <font-face>ZapfDingbats</font-face>
+            </physical-font>
+            <physical-font char-set="SubmenuSymbol">
+                <font-face>ZapfDingbats</font-face>
+            </physical-font>
+            <physical-font char-set="SymbolsSuperscript">
+                <font-face>Arial</font-face>
+                <baseline-shift>20%</baseline-shift>
+                <override-size>smaller</override-size>
+            </physical-font>
+            <physical-font char-set="Simplified Chinese">
+                <font-face>Arial Unicode MS</font-face>
+            </physical-font>
+            <physical-font char-set="Traditional Chinese">
+                <font-face>Arial Unicode MS</font-face>
+            </physical-font>
+        </logical-font>
+        
+        <logical-font name="HelveticaNeue-Condensed">
+            <physical-font char-set="default">
+                <font-face>HelveticaNeue-Condensed</font-face>
+            </physical-font>
+            <physical-font char-set="Russian">
+                <font-face>Calibri</font-face>
+            </physical-font>
+            <physical-font char-set="Greek">
+                <font-face>Myriad Pro</font-face>
+            </physical-font>
+            <physical-font char-set="Simplified Chinese">
+                <font-face>Arial Unicode MS</font-face>
+            </physical-font>
+            <physical-font char-set="Traditional Chinese">
+                <font-face>Arial Unicode MS</font-face>
+            </physical-font>
+        </logical-font>
+
+        <logical-font name="Gesta">
+            <physical-font char-set="default">
+                <font-face>Gesta</font-face>
+            </physical-font>
+            <physical-font char-set="Arabic">
+                <font-face>Arial</font-face>
+            </physical-font>
+            <physical-font char-set="Russian">
+                <font-face>Calibri</font-face>
+            </physical-font>
+            <physical-font char-set="Greek">
+                <font-face>Myriad Pro</font-face>
+            </physical-font>
+            <physical-font char-set="Symbols">
+                <font-face>ZapfDingbats</font-face>
+            </physical-font>
+            <physical-font char-set="SubmenuSymbol">
+                <font-face>ZapfDingbats</font-face>
+            </physical-font>
+            <physical-font char-set="SymbolsSuperscript">
+                <font-face>Arial</font-face>
+                <baseline-shift>20%</baseline-shift>
+                <override-size>smaller</override-size>
+            </physical-font>
+            <physical-font char-set="Simplified Chinese">
+                <font-face>Arial Unicode MS</font-face>
+            </physical-font>
+            <physical-font char-set="Traditional Chinese">
+                <font-face>Arial Unicode MS</font-face>
+            </physical-font>
+        </logical-font>
+
+        <logical-font name="Sans">
+            <physical-font char-set="default">
+                <font-face>Gesta</font-face>
+            </physical-font>
+            <physical-font char-set="Arabic">
+                <font-face>Arial</font-face>
+            </physical-font>
+            <physical-font char-set="Russian">
+                <font-face>Calibri</font-face>
+            </physical-font>
+            <physical-font char-set="Greek">
+                <font-face>Myriad Pro</font-face>
+            </physical-font>
+            <physical-font char-set="Symbols">
+                <font-face>ZapfDingbats</font-face>
+            </physical-font>
+            <physical-font char-set="SubmenuSymbol">
+                <font-face>ZapfDingbats</font-face>
+            </physical-font>
+            <physical-font char-set="SymbolsSuperscript">
+                <font-face>Arial</font-face>
+                <baseline-shift>20%</baseline-shift>
+                <override-size>smaller</override-size>
+            </physical-font>
+            <physical-font char-set="Simplified Chinese">
+                <font-face>Arial Unicode MS</font-face>
+            </physical-font>
+            <physical-font char-set="Traditional Chinese">
+                <font-face>Arial Unicode MS</font-face>
+            </physical-font>
+        </logical-font>
+
+        <logical-font name="Serif">
+            <physical-font char-set="default">
+                <font-face>Gesta</font-face>
+            </physical-font>
+            <physical-font char-set="Russian">
+                <font-face>Calibri</font-face>
+            </physical-font>
+            <physical-font char-set="Arabic">
+                <font-face>Arial</font-face>
+            </physical-font>
+            <physical-font char-set="Greek">
+                <font-face>Myriad Pro</font-face>
+            </physical-font>
+            <physical-font char-set="Symbols">
+                <font-face>ZapfDingbats</font-face>
+            </physical-font>
+            <physical-font char-set="SubmenuSymbol">
+                <font-face>ZapfDingbats</font-face>
+            </physical-font>
+            <physical-font char-set="SymbolsSuperscript">
+                <font-face>Arial</font-face>
+                <baseline-shift>20%</baseline-shift>
+                <override-size>smaller</override-size>
+            </physical-font>
+            <physical-font char-set="Simplified Chinese">
+                <font-face>Arial Unicode MS</font-face>
+            </physical-font>
+            <physical-font char-set="Traditional Chinese">
+                <font-face>Arial Unicode MS</font-face>
+            </physical-font>
+        </logical-font>
+
+        <logical-font name="Monospaced">
+            <physical-font char-set="default">
+                <font-face>Gesta</font-face>
+            </physical-font>
+            <physical-font char-set="Russian">
+                <font-face>Calibri</font-face>
+            </physical-font>
+            <physical-font char-set="Arabic">
+                <font-face>Arial</font-face>
+            </physical-font>
+            <physical-font char-set="Greek">
+                <font-face>Myriad Pro</font-face>
+            </physical-font>
+            <physical-font char-set="Simplified Chinese">
+                <font-face>Arial Unicode MS</font-face>
+            </physical-font>
+            <physical-font char-set="Traditional Chinese">
+                <font-face>Arial Unicode MS</font-face>
+            </physical-font>
+        </logical-font>
+
+        <logical-font name="prodname">
+            <physical-font char-set="default">
+                <font-face>Gesta</font-face>
+            </physical-font>
+            <physical-font char-set="Russian">
+                <font-face>Calibri</font-face>
+            </physical-font>
+            <physical-font char-set="Arabic">
+                <font-face>Arial</font-face>
+            </physical-font>
+            <physical-font char-set="Greek">
+                <font-face>Myriad Pro</font-face>
+            </physical-font>
+            <physical-font char-set="Symbols">
+                <font-face>ZapfDingbats</font-face>
+            </physical-font>
+            <physical-font char-set="SubmenuSymbol">
+                <font-face>ZapfDingbats</font-face>
+            </physical-font>
+            <physical-font char-set="SymbolsSuperscript">
+                <font-face>Arial</font-face>
+                <baseline-shift>40%</baseline-shift>
+                <override-size>20%</override-size>
+            </physical-font>
+            <physical-font char-set="Simplified Chinese">
+                <font-face>Arial Unicode MS</font-face>
+            </physical-font>
+            <physical-font char-set="Traditional Chinese">
+                <font-face>Arial Unicode MS</font-face>
+            </physical-font>
+        </logical-font>
+    </font-table>
+    
+    
+    
+</font-mappings>

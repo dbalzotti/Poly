@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+ Sourceforge.net. See the accompanying license.txt file for 
+ applicable licenses.-->
+<!-- (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved. -->
+
+<strings xml:lang="en-us">        <!-- US English -->
+
+<!-- various labels (not author controlled) -->
+<str name="Figure">Ábra</str>
+<str name="Table">Táblázat</str>
+<str name="Next topic">Következő témakör</str>
+<str name="Previous topic">Előző témakör</str>
+<str name="Parent topic">Szülőtémakör</str>
+<str name="Required cleanup">Szükséges karbantartás</str>
+<str name="Draft comment">Megjegyzés írása</str>
+<str name="Option">Opciók</str>
+<str name="Description">Leírás</str>
+<str name="Optional">Opcionális</str>
+<str name="Required">Szükséges</str>
+<str name="Skip visual syntax diagram">Vizuális szintaxisdiagram kihagyása</str>
+<str name="Read syntax diagram">Szintaxisdiagram olvasása</str>
+<str name="Start of change">Módosítás eleje</str>
+<str name="End of change">Módosítás vége</str>
+<str name="Index">Tárgymutató</str>
+<str name="Special characters">Speciális karakterek</str>
+<str name="Numerics">Számok</str>
+<str name="End notes">Befejező megjegyzések</str>
+<str name="Artwork">Grafika</str>
+<str name="Syntax">Szintaxis</str>
+<str name="Type">Típus</str>
+<str name="Value">Érték</str>
+<!-- Text that goes before a link to a topic -->
+<str name="intro-to-topic-link"></str>
+
+<!-- peril notice labels -->
+<str name="Note">Megjegyzés</str>
+<str name="Notes">Megjegyzések</str>
+<str name="Tip">Tipp</str>
+<str name="Fastpath">Gyors útvonal</str>
+<str name="Important">Fontos</str>
+<str name="Attention">Figyelem</str>
+<str name="Caution">VIGYÁZAT!</str>
+<str name="Danger">VESZÉLY</str>
+<str name="Remember">Ne feledje</str>
+<str name="Restriction">Korlátozás</str>
+<str name="Warning">Figyelmeztetés</str>
+
+<!-- default title text for section level generated sections -->
+<str name="Contents">Tartalom</str>
+<str name="Related concepts">Kapcsolódó fogalmak</str>
+<str name="Related tasks">Kapcsolódó feladatok</str>
+<str name="Related reference">Kapcsolódó hivatkozás</str>
+<str name="Related information">Kapcsolódó információk</str>
+
+<str name="Prerequisite">Előfeltétel</str>
+<str name="Prerequisites">Előfeltételek</str>
+<str name="or">vagy</str>
+<str name="figure-number-separator"> </str>
+
+<!--Task section labels -->
+<str name="task_context">A feladat ismertetése</str>
+<str name="task_example">Példa</str>
+<str name="task_postreq">További teendők</str>
+<str name="task_prereq">Mielőtt elkezdi</str>
+<str name="task_procedure">Folyamat</str>
+<str name="task_results">Eredmények</str>
+
+<str name="Copyright">Szerzői jog</str>
+
+<!-- Symbols -->
+<str name="OpenQuote">&quot;</str>
+<str name="CloseQuote">&quot;</str>
+<str name="ColonSymbol">:</str>
+ 
+<!-- For odt transform -->
+<str name="On the page"> oldal: </str>
+<str name="Related Links">Kapcsolódó hivatkozások</str>
+<str name="List item">Listaelem.</str>
+<str name="Foot note">Lábjegyzet.</str>
+<str name="Page"> oldal: </str>
+<str name="Unordered List bullet">•</str>
+
+</strings>
